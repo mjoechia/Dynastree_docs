@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dynastree (万承) — LPA-Custodian</title>
+<meta name="description" content="Bilingual specification: Dynastree (万承) LPA-Custodian — digital asset, RWA & distribution ecosystem.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%23000%22/><circle cx=%2250%22 cy=%2250%22 r=%2226%22 fill=%22none%22 stroke=%22%23EC4899%22 stroke-width=%228%22/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <div class="brand-text">
+        <span class="brand-title" data-i18n="brandTitle">Dynastree（万承）</span>
+        <span class="brand-sub" data-i18n="brandSub">LPA-Custodian · 数字资产与 RWA 生态系统</span>
+      </div>
+    </div>
+
+    <div class="topbar-actions">
+      <div class="search-wrap">
+        <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="M21 21l-4.3-4.3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <input type="text" id="searchInput" class="search-input" placeholder="Search sections…" data-i18n-placeholder="searchPlaceholder" autocomplete="off">
+        <div id="searchResults" class="search-results" hidden></div>
+      </div>
+
+      <a id="pdfLink" class="pdf-btn" href="assets/Dynastree_LPA-Custodian_EN_CN.pdf" target="_blank" rel="noopener">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 17v2a2 2 0 002 2h12a2 2 0 002-2v-2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span data-i18n="downloadPdf">Download PDF</span>
+      </a>
+
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button class="lang-btn active" id="langZh" data-lang="zh">中文</button>
+        <button class="lang-btn" id="langEn" data-lang="en">EN</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+  <nav class="sidebar" id="sidebar">
+    <div class="sidebar-scroll" id="sidebarNav"></div>
+  </nav>
+
+  <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
+
+  <main class="content" id="content">
+    <!-- sections injected here -->
+  </main>
+</div>
+
+<footer class="site-footer">
+  <span data-i18n="footerText">© Dynastree（万承）· LPA-Custodian</span>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

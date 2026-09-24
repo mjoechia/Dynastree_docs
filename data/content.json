@@ -1,0 +1,5112 @@
+{
+  "zh": [
+    {
+      "number": "1",
+      "title": "1. 项目概述",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "该平台是一个以 Telegram 为核心的数字资产与 RWA 生态系统，整合以下能力："
+        },
+        {
+          "type": "list",
+          "items": [
+            "MLM / 分销 CRM",
+            "二元补偿与家谱管理",
+            "Telegram Mini App",
+            "加密钱包与托管集成",
+            "RWA 资产登记",
+            "代币化/RWA 产品管理",
+            "一分钟固定到期二元交易模块",
+            "LPA-Custodian（族谱连）— 继承与传承系统",
+            "托管方控制的资产分配",
+            "KYC / AML / 制裁 / 地域管控",
+            "管理后台与合规管理",
+            "双边记账金融总账",
+            "美国上市公司 / 战略资产层",
+            "立陶宛 MiCA/CASP 合规架构"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "核心原则是：以上功能不应被视为同一类未加区分的金融产品。"
+        },
+        {
+          "type": "paragraph",
+          "text": "系统应在提供统一用户体验的同时，在以下各项之间维持独立的技术与合规边界："
+        },
+        {
+          "type": "list",
+          "items": [
+            "加密服务",
+            "RWA",
+            "证券",
+            "交易/二元产品",
+            "MLM/分销",
+            "托管",
+            "继承",
+            "企业活动"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "这一架构使平台能够在不重建核心 CRM 的前提下，向不同司法管辖区和产品类别扩展。"
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "title": "2. 整体业务概念",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "该平台可划分为五个相互关联的层级。"
+        },
+        {
+          "type": "subheading",
+          "text": "第一层 — 公司 / 美国上市公司"
+        },
+        {
+          "type": "paragraph",
+          "text": "美国上市公司可作为战略性公司层，负责："
+        },
+        {
+          "type": "list",
+          "items": [
+            "技术",
+            "RWA 投资",
+            "战略合作",
+            "资金财务",
+            "企业投资",
+            "并购",
+            "业务拓展",
+            "与上市公司相关的潜在数字资产或证券"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "与该上市公司相关的任何证券，均须接受其自身独立的证券法分析。"
+        },
+        {
+          "type": "paragraph",
+          "text": "区块链化的表现形式并不会自动使一项证券在 MiCA 框架下被视为加密资产。"
+        },
+        {
+          "type": "subheading",
+          "text": "第二层 — 立陶宛 MiCA / CASP 实体"
+        },
+        {
+          "type": "paragraph",
+          "text": "立陶宛实体在其获授权范围内提供适用的加密资产服务。"
+        },
+        {
+          "type": "paragraph",
+          "text": "立陶宛央行指出，拟在欧盟提供加密资产服务的实体必须依据 MiCA 框架及相关豁免条款取得相应授权。"
+        },
+        {
+          "type": "paragraph",
+          "text": "与该架构可能相关的加密服务示例包括："
+        },
+        {
+          "type": "list",
+          "items": [
+            "托管与管理",
+            "转账服务",
+            "订单接收/传递",
+            "订单执行",
+            "加密资产兑换法币",
+            "加密资产之间的兑换"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "项目实际可提供的服务范围取决于最终取得的授权内容。"
+        },
+        {
+          "type": "paragraph",
+          "text": "截至 2026 年，立陶宛的 MiCA 过渡期已结束，立陶宛央行表示未获牌照的服务提供者不得再依据过渡性框架在欧盟提供加密资产服务。"
+        },
+        {
+          "type": "subheading",
+          "text": "第三层 — RWA / 资产基础设施"
+        },
+        {
+          "type": "paragraph",
+          "text": "RWA 层负责管理："
+        },
+        {
+          "type": "list",
+          "items": [
+            "真实世界资产",
+            "SPV",
+            "资产所有权",
+            "托管人",
+            "估值",
+            "代币/工具记录",
+            "投资者/持有人记录",
+            "赎回",
+            "转让",
+            "公司文件"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "第四层 — 分销 / 交易生态"
+        },
+        {
+          "type": "paragraph",
+          "text": "该层包含："
+        },
+        {
+          "type": "list",
+          "items": [
+            "推荐系统",
+            "推荐家谱",
+            "二叉树",
+            "等级引擎",
+            "业绩引擎",
+            "佣金引擎",
+            "交易引擎",
+            "促销活动",
+            "交易积分",
+            "每日限额",
+            "套餐限制"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "第五层 — LPA-Custodian（族谱连）"
+        },
+        {
+          "type": "paragraph",
+          "text": "LPA-Custodian（族谱连）提供数字化的继承/传承机制。"
+        },
+        {
+          "type": "paragraph",
+          "text": "它允许资产所有人设定：谁在什么情况下获得什么资产，需经过何种核验与托管方批准。"
+        },
+        {
+          "type": "paragraph",
+          "text": "平台本身无需持有私钥。"
+        },
+        {
+          "type": "paragraph",
+          "text": "而是遵循：所有人 → LPA-Custodian 政策 → 核验 → 合规 → 托管人 → 受益人"
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "title": "3. 系统架构",
+      "blocks": [
+        {
+          "type": "subheading",
+          "text": "3.1 总体架构"
+        },
+        {
+          "type": "diagram",
+          "text": "                     ┌─────────────────────┐\n                     │   US LISTED COMPANY  │\n                     │ Corporate / RWA Hub  │\n                     └──────────┬───────────┘\n                                │\n                 ┌──────────────▼──────────────┐\n                 │        RWA PLATFORM         │\n                 │ Assets / SPV / NAV / Rights │\n                 └──────────────┬──────────────┘\n                                │\n          ┌─────────────────────▼─────────────────────┐\n          │             CORE PLATFORM                  │\n          │  Identity / CRM / Ledger / Rules / Audit   │\n          └───────┬─────────────┬─────────────┬────────┘\n                  │             │             │\n         ┌────────▼──────┐ ┌────▼──────┐ ┌────▼─────────┐\n         │  DISTRIBUTION │ │  TRADING  │ │ LPA-CUSTODIAN │\n         │     ENGINE    │ │  ENGINE   │ │  INHERITANCE  │\n         └───────────────┘ └───────────┘ └──────┬────────┘\n                                                 │\n                                          ┌──────▼──────┐\n                                          │  CUSTODIAN  │\n                                          │ Settlement  │\n                                          └─────────────┘"
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "title": "4. Telegram Mini App",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Telegram 是会员的主要交互入口。"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini App 应提供类似金融超级应用的体验。"
+        },
+        {
+          "type": "subheading",
+          "text": "主导航"
+        },
+        {
+          "type": "subheading",
+          "text": "仪表盘"
+        },
+        {
+          "type": "paragraph",
+          "text": "展示内容："
+        },
+        {
+          "type": "list",
+          "items": [
+            "总余额",
+            "可用余额",
+            "质押/锁定余额",
+            "交易余额",
+            "RWA 持仓",
+            "佣金余额",
+            "二元业绩量",
+            "等级",
+            "团队业绩",
+            "每日收益上限",
+            "推荐奖励"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "钱包"
+        },
+        {
+          "type": "paragraph",
+          "text": "功能："
+        },
+        {
+          "type": "list",
+          "items": [
+            "充值",
+            "提现",
+            "内部转账",
+            "交易记录",
+            "资产余额",
+            "链上交易编号",
+            "托管状态"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "我的团队"
+        },
+        {
+          "type": "paragraph",
+          "text": "展示内容："
+        },
+        {
+          "type": "list",
+          "items": [
+            "直接推荐人",
+            "左区团队",
+            "右区团队",
+            "团队业绩",
+            "等级",
+            "对碰奖",
+            "领导奖层级",
+            "弱侧达标情况",
+            "活跃/不活跃会员"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "交易"
+        },
+        {
+          "type": "paragraph",
+          "text": "展示内容："
+        },
+        {
+          "type": "list",
+          "items": [
+            "可交易品种",
+            "当前价格",
+            "倒计时",
+            "交易金额",
+            "方向/判断",
+            "到期时间",
+            "结算结果",
+            "交易记录"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "RWA"
+        },
+        {
+          "type": "paragraph",
+          "text": "展示内容："
+        },
+        {
+          "type": "list",
+          "items": [
+            "RWA 产品",
+            "资产说明",
+            "发行方/SPV",
+            "托管人",
+            "当前估值",
+            "持有份额",
+            "认购状态",
+            "赎回可用性",
+            "相关文件"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "LPA-Custodian（族谱连）"
+        },
+        {
+          "type": "paragraph",
+          "text": "展示内容："
+        },
+        {
+          "type": "list",
+          "items": [
+            "我的继承计划",
+            "受益人",
+            "资产分配",
+            "触发状态",
+            "核验状态",
+            "托管状态"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "奖励"
+        },
+        {
+          "type": "paragraph",
+          "text": "展示内容："
+        },
+        {
+          "type": "list",
+          "items": [
+            "直推佣金",
+            "对碰奖",
+            "领导奖",
+            "二元佣金",
+            "促销奖励",
+            "交易积分"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "5",
+      "title": "5. 身份与 KYC",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "每位用户都应拥有一份中心化身份记录。"
+        },
+        {
+          "type": "diagram",
+          "text": "User\n |-- Telegram ID\n |-- Internal User ID\n |-- KYC Status\n |-- Jurisdiction\n |-- Risk Classification\n |-- Wallet(s)\n |-- Sponsor\n |-- Binary Position\n |-- RWA Holdings\n |-- Trading Account\n `-- LPA-Custodian Policy"
+        },
+        {
+          "type": "paragraph",
+          "text": "系统应区分："
+        },
+        {
+          "type": "subheading",
+          "text": "身份状态"
+        },
+        {
+          "type": "list",
+          "items": [
+            "已注册",
+            "KYC 待审核",
+            "KYC 已通过",
+            "KYC 被拒绝",
+            "受限",
+            "已冻结",
+            "已关闭"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "司法管辖区状态"
+        },
+        {
+          "type": "list",
+          "items": [
+            "允许",
+            "受限",
+            "禁止",
+            "人工审核"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "这使平台能够防止不合资格的用户看到受限产品。"
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "title": "6. MLM / 分销 CRM",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "CRM 在技术上应称为：分销与推荐引擎"
+        },
+        {
+          "type": "paragraph",
+          "text": "这为监管和地域层面的呈现提供了灵活性。"
+        },
+        {
+          "type": "paragraph",
+          "text": "它由两种不同的结构组成。"
+        },
+        {
+          "type": "subheading",
+          "text": "6.1 推荐树"
+        },
+        {
+          "type": "paragraph",
+          "text": "推荐树记录：谁介绍了谁。示例："
+        },
+        {
+          "type": "diagram",
+          "text": "Alice\n |-- Bob\n |    |-- David\n |    `-- Emma\n |\n `-- Charlie\n      |-- Frank\n      `-- Grace"
+        },
+        {
+          "type": "paragraph",
+          "text": "它决定："
+        },
+        {
+          "type": "list",
+          "items": [
+            "直推佣金",
+            "越级奖",
+            "对碰奖",
+            "领导奖"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "7",
+      "title": "7. 二叉排位树",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "二叉树与推荐关系相互独立。示例："
+        },
+        {
+          "type": "diagram",
+          "text": "                    Alice\n                  /       \\\n              Bob           Charlie\n             /   \\         /       \\\n          David  Emma    Frank     Grace"
+        },
+        {
+          "type": "paragraph",
+          "text": "一名会员可以亲自推荐某人，但将该人安置在二叉结构的其他位置。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这种分离至关重要。"
+        },
+        {
+          "type": "subheading",
+          "text": "推荐关系"
+        },
+        {
+          "type": "paragraph",
+          "text": "谁介绍了该会员？"
+        },
+        {
+          "type": "subheading",
+          "text": "二元关系"
+        },
+        {
+          "type": "paragraph",
+          "text": "该会员被安置在何处？"
+        },
+        {
+          "type": "paragraph",
+          "text": "系统绝不能因为一方发生变化而覆盖另一方的记录。"
+        }
+      ]
+    },
+    {
+      "number": "8",
+      "title": "8. 套餐结构",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "所提供的商业模型可表示如下。"
+        },
+        {
+          "type": "table",
+          "header": [
+            "套餐",
+            "价格",
+            "Token A",
+            "Token B",
+            "最短期限",
+            "最高收益上限"
+          ],
+          "rows": [
+            [
+              "Trial",
+              "USD 300",
+              "150",
+              "150",
+              "3个月",
+              "USD 600"
+            ],
+            [
+              "Builder",
+              "USD 1,000",
+              "500",
+              "500",
+              "6/9/12个月",
+              "USD 3,000"
+            ],
+            [
+              "Elite",
+              "USD 5,000",
+              "2,500",
+              "2,500",
+              "6/9/12个月",
+              "USD 20,000"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Trial 套餐在三个月后到期，除非依据适用的方案规则完成升级。"
+        }
+      ]
+    },
+    {
+      "number": "9",
+      "title": "9. 等级与佣金引擎",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "系统应使每一项佣金均可配置，而非硬编码。"
+        },
+        {
+          "type": "table",
+          "header": [
+            "指标",
+            "Trial",
+            "Builder",
+            "Elite",
+            "V1",
+            "V2",
+            "V3"
+          ],
+          "rows": [
+            [
+              "套餐门槛",
+              "300",
+              "1,000",
+              "5,000",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "直接推荐奖",
+              "8%",
+              "10%",
+              "12%",
+              "13%",
+              "14%",
+              "15%"
+            ],
+            [
+              "越级奖",
+              "N/A",
+              "2%",
+              "2%",
+              "1%",
+              "1%",
+              "1%"
+            ],
+            [
+              "对碰奖",
+              "8%",
+              "9%",
+              "10%",
+              "11%",
+              "12%",
+              "13%"
+            ],
+            [
+              "领导奖层级",
+              "N/A",
+              "2 层",
+              "4",
+              "6",
+              "8",
+              "10"
+            ],
+            [
+              "交易次数",
+              "3",
+              "4",
+              "5",
+              "5",
+              "5",
+              "5"
+            ],
+            [
+              "Goldmine 层级",
+              "N/A",
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            [
+              "二元每日上限",
+              "100",
+              "500",
+              "3,000",
+              "5,000",
+              "10,000",
+              "20,000"
+            ],
+            [
+              "复购上限",
+              "600",
+              "3,000",
+              "20,000",
+              "20,000",
+              "20,000",
+              "20,000"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "所有比例和限额都应存储在可版本化的规则表中。"
+        }
+      ]
+    },
+    {
+      "number": "10",
+      "title": "10. 二元补偿引擎",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "二元佣金引擎应计算：左侧合格业绩量 + 右侧合格业绩量 = 匹配业绩量"
+        },
+        {
+          "type": "paragraph",
+          "text": "例如："
+        },
+        {
+          "type": "diagram",
+          "text": "Left Volume:      20,000\nRight Volume:     15,000\nMatched Volume  = 15,000\nRemaining Left  =  5,000\nRemaining Right =      0"
+        },
+        {
+          "type": "paragraph",
+          "text": "佣金根据会员的等级/套餐，按匹配金额计算。"
+        },
+        {
+          "type": "paragraph",
+          "text": "在适用情况下，系统应保留剩余业绩量。"
+        }
+      ]
+    },
+    {
+      "number": "11",
+      "title": "11. 收益上限",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "每个套餐都有最高收益上限。例如："
+        },
+        {
+          "type": "diagram",
+          "text": "Trial\nInvestment:              USD 300\nMaximum package earnings: USD 600"
+        },
+        {
+          "type": "paragraph",
+          "text": "一旦达到上限，系统应停止该套餐级别的合格二元收益。"
+        },
+        {
+          "type": "paragraph",
+          "text": "只有在方案规则允许购买另一份合格套餐的情况下，用户才能重新参与。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这必须在后端强制执行，不能依赖 Telegram 前端。"
+        }
+      ]
+    },
+    {
+      "number": "12",
+      "title": "12. 每日交易",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "系统可支持可配置的交易频率。例如："
+        },
+        {
+          "type": "table",
+          "header": [
+            "等级",
+            "每日交易次数"
+          ],
+          "rows": [
+            [
+              "Trial",
+              "3"
+            ],
+            [
+              "Builder",
+              "4"
+            ],
+            [
+              "Elite",
+              "5"
+            ],
+            [
+              "V1–V3",
+              "5"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "交易引擎应维护：每日交易次数、每日交易上限、剩余可交易次数"
+        }
+      ]
+    },
+    {
+      "number": "13",
+      "title": "13. 交易 Goldmine 机制",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Goldmine 机制可表示为一种由合格会员交易活动衍生出的可配置激励。"
+        },
+        {
+          "type": "paragraph",
+          "text": "系统记录："
+        },
+        {
+          "type": "list",
+          "items": [
+            "来源会员",
+            "交易活动",
+            "合格利润",
+            "Goldmine 层级",
+            "适用比例",
+            "受益人/上级",
+            "计算",
+            "结算"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "未经核实的交易结果不应用于计算任何佣金。"
+        }
+      ]
+    },
+    {
+      "number": "14",
+      "title": "14. 月度交易积分",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "促销结构可表示为："
+        },
+        {
+          "type": "table",
+          "header": [
+            "套餐",
+            "10% 月度奖金",
+            "20% 月度奖金",
+            "每日最高限额"
+          ],
+          "rows": [
+            [
+              "Trial",
+              "USD 30",
+              "USD 60",
+              "USD 6–12/天"
+            ],
+            [
+              "Builder",
+              "USD 100",
+              "USD 200",
+              "USD 20–40/天"
+            ],
+            [
+              "Elite",
+              "USD 500",
+              "USD 1,000",
+              "USD 100–200/天"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "积分应具备以下特性："
+        },
+        {
+          "type": "list",
+          "items": [
+            "按月到期",
+            "不可提现",
+            "不可未经授权转让",
+            "明确的兑换/结算规则"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "仅当获批方案规则要求时，才支付合格的净交易利润。"
+        }
+      ]
+    },
+    {
+      "number": "15",
+      "title": "15. 一分钟二元期权",
+      "blocks": [
+        {
+          "type": "subheading",
+          "text": "15.1 什么是二元期权？"
+        },
+        {
+          "type": "paragraph",
+          "text": "二元期权通常是一种固定结果合约，其结果取决于到期时某一设定条件是否满足。"
+        },
+        {
+          "type": "paragraph",
+          "text": "美国商品期货交易委员会（CFTC）将二元期权描述为一种全有或全无的投资，其结果取决于到期时的是/否条件。"
+        },
+        {
+          "type": "paragraph",
+          "text": "例如：“BTC/USD 在 12:01:00 是否会高于 100,000？”"
+        },
+        {
+          "type": "paragraph",
+          "text": "用户选择“是”或“否”。合约将在一分钟后到期。"
+        }
+      ]
+    },
+    {
+      "number": "16",
+      "title": "16. 一分钟交易示例",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "假设："
+        },
+        {
+          "type": "diagram",
+          "text": "Underlying:              BTC/USD\nCurrent reference price: 100,000\nProposition:  BTC/USD will be above 100,000 at expiry.\nDuration:     1 minute\nStake:        100 USDT\nExample payout: 180 USDT total\n\nScenario A - YES Wins   (Settlement price = 100,250, condition TRUE)\n  Stake:   100 USDT\n  Payout:   80 USDT\n  Total:   180 USDT\n\nScenario B - YES Loses  (Settlement price = 99,850, condition FALSE)\n  Stake:   100 USDT\n  Payout:     0\n  Loss:    100 USDT\n\nScenario C - Exact Price (Settlement price = 100,000, tie)\n  Predefined tie rule applies, e.g.:\n    - Equal = loss\n    - Equal = refund\n    - Equal = void"
+        },
+        {
+          "type": "paragraph",
+          "text": "该规则必须在交易前予以披露。"
+        }
+      ]
+    },
+    {
+      "number": "17",
+      "title": "17. 一分钟交易技术流程",
+      "blocks": [
+        {
+          "type": "diagram",
+          "text": "User\n |\n v\nTelegram Mini App\n |\n v\nTrade Request\n |\n v\nRisk / Eligibility Check\n |-- KYC\n |-- Jurisdiction\n |-- Balance\n |-- Product eligibility\n `-- Trade limits\n |\n v\nPrice Validation\n |\n v\nOrder Accepted\n |\n v\nImmutable Entry Timestamp\n |\n v\n60-Second Countdown\n |\n v\nExpiry\n |\n v\nAuthoritative Price\n |\n v\nOutcome Calculation\n |\n v\nSettlement\n |\n v\nDouble-Entry Ledger\n |\n v\nUser Balance"
+        }
+      ]
+    },
+    {
+      "number": "18",
+      "title": "18. 一分钟交易安全性",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "这一部分极为重要。"
+        },
+        {
+          "type": "paragraph",
+          "text": "系统不应依赖用户手机的本地时钟。"
+        },
+        {
+          "type": "paragraph",
+          "text": "服务器必须确定："
+        },
+        {
+          "type": "list",
+          "items": [
+            "入场时间",
+            "到期时间",
+            "参考价格",
+            "结算价格"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "每笔交易都会分配唯一编号。例如："
+        },
+        {
+          "type": "diagram",
+          "text": "TRADE-20260924-000001\n\nRecord contains:\n  Trade ID          User ID           Instrument\n  Direction         Entry price       Entry timestamp\n  Stake             Expiry timestamp  Settlement price\n  Outcome           Payout            Ruleset version\n  Price-feed ID     Settlement timestamp"
+        }
+      ]
+    },
+    {
+      "number": "19",
+      "title": "19. 价格预言机架构",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "系统需要一套权威的定价机制。可能的结构："
+        },
+        {
+          "type": "diagram",
+          "text": "Exchange A     Exchange B     Exchange C\n     \\             |              /\n      \\            |             /\n       v           v            v\n            Price Aggregator\n                    |\n                    v\n        Validated Reference Price\n                    |\n                    v\n              Trading Engine"
+        },
+        {
+          "type": "paragraph",
+          "text": "系统应防范："
+        },
+        {
+          "type": "list",
+          "items": [
+            "交易所中断",
+            "价格操纵",
+            "过期价格",
+            "闪崩",
+            "API 延迟",
+            "重复价格",
+            "K 线缺失",
+            "时区错误"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "20",
+      "title": "20. 关于二元期权的关键监管要点",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "不能简单假定一分钟二元产品自动落入立陶宛 MiCA/CASP 牌照的范围。"
+        },
+        {
+          "type": "paragraph",
+          "text": "ESMA（欧洲证券和市场管理局）此前曾对向零售客户营销、分销和销售二元期权实施全欧盟范围的临时禁令。由于许多国家监管机构已采取永久性措施，ESMA 后来于 2019 年 7 月允许该临时措施到期失效。"
+        },
+        {
+          "type": "paragraph",
+          "text": "ESMA 的定义涵盖了这样一类合约：其支付金额仅限于预先确定的固定金额或零，具体取决于与标的相关的预设条件是否满足。"
+        },
+        {
+          "type": "paragraph",
+          "text": "因此，该架构在上线前应设立独立的“二元产品监管边界”。"
+        },
+        {
+          "type": "paragraph",
+          "text": "法律分析需要确定："
+        },
+        {
+          "type": "list",
+          "items": [
+            "产品分类",
+            "客户分类",
+            "司法管辖区",
+            "发行方",
+            "交易场所",
+            "交易对手",
+            "对冲模式",
+            "营销模式",
+            "结算模式",
+            "适用的衍生品/证券规则"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "在该分析完成之前，软件应支持按司法管辖区进行拦截。"
+        }
+      ]
+    },
+    {
+      "number": "21",
+      "title": "21. RWA 基础设施",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "RWA 系统应维护一份完整的资产登记册。"
+        },
+        {
+          "type": "subheading",
+          "text": "资产记录"
+        },
+        {
+          "type": "diagram",
+          "text": "Asset ID              Custodian             Documents\nAsset Type            Valuation             Token/Instrument\nLegal Owner           Valuation Date        Supply\nSPV                   Valuation Methodology Redemption\nJurisdiction          Insurance             Transfer Restrictions\n                                            Status"
+        }
+      ]
+    },
+    {
+      "number": "22",
+      "title": "22. RWA 示例 — 代币化黄金",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "示例："
+        },
+        {
+          "type": "diagram",
+          "text": "Gold Asset\n   |\n   v\nSPV / Legal Owner\n   |\n   v\nApproved Custodian\n   |\n   v\nIndependent Valuation\n   |\n   v\nDigital Instrument\n   |\n   v\nInvestor / Holder Registry"
+        },
+        {
+          "type": "paragraph",
+          "text": "假设标的黄金估值为：1,000 万美元"
+        },
+        {
+          "type": "paragraph",
+          "text": "平台记录："
+        },
+        {
+          "type": "list",
+          "items": [
+            "数量",
+            "成色",
+            "托管人",
+            "存放地点",
+            "保险",
+            "所有权",
+            "估值",
+            "法律文件"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "如果发行数字化份额，平台将记录：标的资产 + 法律权利 + 数字化表现形式"
+        },
+        {
+          "type": "paragraph",
+          "text": "除非法律文件明确建立该等关系，否则代币不应被表述为自动等同于标的资产。"
+        }
+      ]
+    },
+    {
+      "number": "23",
+      "title": "23. RWA 净值（NAV）引擎",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "系统可维护：资产总值 − 负债 = 净值（NAV）。例如："
+        },
+        {
+          "type": "diagram",
+          "text": "Gold value                10,000,000\nOther assets                 500,000\nLiabilities                  200,000\n                           ----------\nNAV                       10,300,000"
+        },
+        {
+          "type": "paragraph",
+          "text": "估值应包含："
+        },
+        {
+          "type": "list",
+          "items": [
+            "时间戳",
+            "数据来源",
+            "估值方法",
+            "审批人",
+            "版本号"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "24",
+      "title": "24. RWA 赎回",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "示例流程："
+        },
+        {
+          "type": "diagram",
+          "text": "Investor\n   |\n   v\nRedemption Request\n   |\n   v\nEligibility Check\n   |\n   v\nValuation\n   |\n   v\nFee Calculation\n   |\n   v\nCompliance Check\n   |\n   v\nCustodian / Issuer Approval\n   |\n   v\nSettlement"
+        }
+      ]
+    },
+    {
+      "number": "25",
+      "title": "25. 美国上市公司整合",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "美国上市公司应被视为独立的公司主体。"
+        },
+        {
+          "type": "paragraph",
+          "text": "潜在角色："
+        },
+        {
+          "type": "subheading",
+          "text": "企业资金库"
+        },
+        {
+          "type": "list",
+          "items": [
+            "现金",
+            "加密资产",
+            "RWA 投资",
+            "战略资产"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "企业合作"
+        },
+        {
+          "type": "list",
+          "items": [
+            "技术供应商",
+            "托管机构",
+            "交易所",
+            "RWA 提供方",
+            "机构投资者"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "企业投资"
+        },
+        {
+          "type": "list",
+          "items": [
+            "RWA",
+            "技术",
+            "基础设施",
+            "战略并购"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "26",
+      "title": "26. 美国上市公司资产代币化",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "如果该生态系统最终创建代表以下内容的数字化工具："
+        },
+        {
+          "type": "list",
+          "items": [
+            "股份",
+            "可转换权益",
+            "收益权",
+            "债务",
+            "认股权证",
+            "其他金融权益"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "系统必须判断该产品是否属于金融工具/证券，而非单纯的 MiCA 加密资产。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这意味着需要一条独立的证券法律工作线。"
+        },
+        {
+          "type": "paragraph",
+          "text": "因此，技术平台应支持："
+        },
+        {
+          "type": "diagram",
+          "text": "Crypto Asset\n      |\n      |-- MiCA/CASP pathway\n      |\n      `-- Financial Instrument\n              |\n              `-- Securities pathway"
+        }
+      ]
+    },
+    {
+      "number": "27",
+      "title": "27. LPA-Custodian（族谱连）— 继承系统",
+      "blocks": [
+        {
+          "type": "subheading",
+          "text": "概念"
+        },
+        {
+          "type": "paragraph",
+          "text": "LPA-Custodian（族谱连）是面向以下资产的继承基础设施层："
+        },
+        {
+          "type": "list",
+          "items": [
+            "加密资产",
+            "稳定币",
+            "RWA",
+            "代币化资产",
+            "托管资产",
+            "其他获批的数字化财产"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "本质上，它是：一套与受监管的托管与结算系统相连接的可编程继承政策。"
+        }
+      ]
+    },
+    {
+      "number": "28",
+      "title": "28. LPA-Custodian（族谱连）示例",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "假设："
+        },
+        {
+          "type": "diagram",
+          "text": "Owner: Alice\nAssets:\n  1,000,000 USDT\n  500,000 RWA units\n  100,000 BTC-equivalent\n\nBeneficiary A  50%\nBeneficiary B  30%\nBeneficiary C  20%"
+        },
+        {
+          "type": "paragraph",
+          "text": "系统存储该政策。仅因政策存在本身，系统不会自动转移资产。"
+        }
+      ]
+    },
+    {
+      "number": "29",
+      "title": "29. 继承触发",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "可能的触发状态："
+        },
+        {
+          "type": "diagram",
+          "text": "ACTIVE\n   |\n   v\nTRIGGER SUBMITTED\n   |\n   v\nDOCUMENT VERIFICATION\n   |\n   v\nKYC / AML REVIEW\n   |\n   v\nCUSTODIAN REVIEW\n   |\n   v\nAPPROVED\n   |\n   v\nSETTLEMENT\n   |\n   v\nCOMPLETED"
+        }
+      ]
+    },
+    {
+      "number": "30",
+      "title": "30. LPA-Custodian（族谱连）托管架构",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "CRM 不应持有私钥。而是："
+        },
+        {
+          "type": "diagram",
+          "text": "LPA-Custodian\n   |\n   | Settlement Instruction\n   v\nCustodian\n   |\n   | Actual Asset\n   v\nBlockchain / Bank / RWA Registry"
+        },
+        {
+          "type": "paragraph",
+          "text": "由托管人执行交易。这在“政策”与“资产控制”之间提供了额外的分离。"
+        }
+      ]
+    },
+    {
+      "number": "31",
+      "title": "31. 受益人核验",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在分配之前：受益人必须通过："
+        },
+        {
+          "type": "list",
+          "items": [
+            "身份核验",
+            "制裁筛查",
+            "司法管辖区核查",
+            "资格核查",
+            "所需文件",
+            "适用情况下的税务/文件要求"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "只有在批准之后，系统才能生成结算指令。"
+        }
+      ]
+    },
+    {
+      "number": "32",
+      "title": "32. 继承分配",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "示例："
+        },
+        {
+          "type": "diagram",
+          "text": "Total eligible assets = 1,000,000 USDT\nBeneficiary A = 50%  -> 500,000\nBeneficiary B = 30%  -> 300,000\nBeneficiary C = 20%  -> 200,000"
+        },
+        {
+          "type": "paragraph",
+          "text": "实际的资产分配随后由托管人执行。"
+        }
+      ]
+    },
+    {
+      "number": "33",
+      "title": "33. LPA-Custodian（族谱连）版本管理",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "继承政策必须进行版本控制。示例："
+        },
+        {
+          "type": "diagram",
+          "text": "Policy V1\n  A = 50%   B = 30%   C = 20%\n        |\n        v\nPolicy V2\n  A = 40%   B = 40%   C = 20%\n\n(V1 is preserved; history is never overwritten)"
+        },
+        {
+          "type": "paragraph",
+          "text": "系统必须保留 V1 版本，绝不能覆盖历史政策。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这对于处理争议和保证可审计性至关重要。"
+        }
+      ]
+    },
+    {
+      "number": "34",
+      "title": "34. 托管架构",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "托管架构应为："
+        },
+        {
+          "type": "diagram",
+          "text": "User\n |\n v\nPlatform\n |-- KYC\n |-- AML\n |-- Limits\n |-- Risk\n `-- Policy\n |\n v\nApproval\n |\n v\nCustodian\n |\n v\nBlockchain / Bank"
+        },
+        {
+          "type": "paragraph",
+          "text": "平台记录："
+        },
+        {
+          "type": "list",
+          "items": [
+            "请求",
+            "批准",
+            "托管人参考编号",
+            "区块链交易哈希",
+            "结算状态"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "35",
+      "title": "35. 双边记账总账",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "金融系统不应仅依赖钱包余额。"
+        },
+        {
+          "type": "paragraph",
+          "text": "每一项金融事件都应生成账本分录。示例："
+        },
+        {
+          "type": "diagram",
+          "text": "Deposit\n  Debit:  Custody Asset\n  Credit: Customer Liability\n\nCommission\n  Debit:  Commission Expense\n  Credit: Member Payable\n\nTrading Profit\n  Debit:  Trading Settlement\n  Credit: Member Balance"
+        },
+        {
+          "type": "paragraph",
+          "text": "这使对账成为可能。"
+        }
+      ]
+    },
+    {
+      "number": "36",
+      "title": "36. 账本架构",
+      "blocks": [
+        {
+          "type": "diagram",
+          "text": "Account\n  |-- Asset\n  |-- Liability\n  |-- Revenue\n  |-- Expense\n  |-- Commission\n  |-- Trading\n  |-- RWA\n  `-- Custody\n\nTotal Debits = Total Credits  (every transaction must balance)"
+        }
+      ]
+    },
+    {
+      "number": "37",
+      "title": "37. 管理后台",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "管理员应拥有独立的功能模块。"
+        },
+        {
+          "type": "subheading",
+          "text": "仪表盘"
+        },
+        {
+          "type": "list",
+          "items": [
+            "用户",
+            "资产",
+            "交易",
+            "充值",
+            "提现",
+            "佣金",
+            "RWA",
+            "合规",
+            "托管",
+            "LPA-Custodian（族谱连）"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "38",
+      "title": "38. 合规仪表盘",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "展示内容："
+        },
+        {
+          "type": "list",
+          "items": [
+            "KYC 待审核",
+            "KYC 已通过",
+            "KYC 已拒绝",
+            "AML 警报",
+            "制裁警报",
+            "受限国家",
+            "可疑活动",
+            "大额交易",
+            "人工审核"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "39",
+      "title": "39. 合规规则引擎",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "不应将限制条件硬编码，而是使用规则："
+        },
+        {
+          "type": "diagram",
+          "text": "IF User.Country = Restricted AND Product = Binary THEN Block\n\nIF User.KYC != APPROVED THEN Block Trading\n\nIF Product.Type = Securities THEN Require Securities Eligibility"
+        }
+      ]
+    },
+    {
+      "number": "40",
+      "title": "40. 安全架构",
+      "blocks": [
+        {
+          "type": "subheading",
+          "text": "身份认证"
+        },
+        {
+          "type": "paragraph",
+          "text": "Telegram 身份认证必须在服务端进行校验。"
+        },
+        {
+          "type": "subheading",
+          "text": "访问控制"
+        },
+        {
+          "type": "paragraph",
+          "text": "采用："
+        },
+        {
+          "type": "list",
+          "items": [
+            "基于角色的访问控制（RBAC）",
+            "管理员角色",
+            "合规角色",
+            "财务角色",
+            "托管人角色",
+            "超级管理员"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "41",
+      "title": "41. 敏感操作",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "以下操作应要求更高权限："
+        },
+        {
+          "type": "list",
+          "items": [
+            "更改推荐关系",
+            "更改二元排位",
+            "更改佣金规则",
+            "更改套餐规则",
+            "托管释放",
+            "RWA 估值",
+            "继承批准",
+            "受益人变更",
+            "人工余额调整"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "42",
+      "title": "42. Maker-Checker 双重审核",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "敏感操作应使用如下流程："
+        },
+        {
+          "type": "diagram",
+          "text": "Maker\n  |\n  v\nRequest\n  |\n  v\nChecker\n  |\n  v\nApproval\n  |\n  v\nExecution"
+        },
+        {
+          "type": "paragraph",
+          "text": "任何单一管理员都不应能够单独且无声地修改账本或释放资产。"
+        }
+      ]
+    },
+    {
+      "number": "43",
+      "title": "43. 技术栈",
+      "blocks": [
+        {
+          "type": "subheading",
+          "text": "前端"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Telegram Mini App",
+            "React",
+            "Next.js",
+            "Tailwind CSS"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "后端"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Node.js",
+            "TypeScript",
+            "REST API",
+            "必要时使用 WebSocket"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "数据库"
+        },
+        {
+          "type": "list",
+          "items": [
+            "PostgreSQL",
+            "Supabase"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "后台处理"
+        },
+        {
+          "type": "list",
+          "items": [
+            "兼容 Redis 的队列",
+            "Worker 进程",
+            "定时任务"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "区块链"
+        },
+        {
+          "type": "list",
+          "items": [
+            "链专用 RPC",
+            "钱包连接",
+            "交易索引器",
+            "区块浏览器集成"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "托管"
+        },
+        {
+          "type": "list",
+          "items": [
+            "机构级托管 API"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "合规"
+        },
+        {
+          "type": "list",
+          "items": [
+            "KYC 服务商",
+            "AML 服务商",
+            "制裁筛查"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "44",
+      "title": "44. 核心数据库模块",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "平台应维护以下数据模块："
+        },
+        {
+          "type": "diagram",
+          "text": "users                     rwa_assets                inheritance_policies\nuser_kyc                  rwa_spvs                  beneficiaries\nuser_wallets              rwa_valuations            inheritance_events\nsponsors                  rwa_instruments           inheritance_allocations\nbinary_nodes              rwa_holdings              inheritance_settlements\nbinary_volume             custodians                ledger_accounts\npackages                  custody_accounts          ledger_transactions\npackage_rules             custody_transactions      ledger_entries\nrank_rules                                           compliance_cases\ncommission_rules                                     aml_alerts\ncommission_transactions                              sanctions_checks\ncommission_ledger                                    audit_logs\ntrading_accounts                                     system_rules\ntrading_orders\ntrading_settlements\nprice_feeds"
+        }
+      ]
+    },
+    {
+      "number": "45",
+      "title": "45. 开发预算",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**开发总预算：80,000 USDT**"
+        }
+      ]
+    },
+    {
+      "number": "46",
+      "title": "46. 开发范围",
+      "blocks": [
+        {
+          "type": "subheading",
+          "text": "第一阶段 — 架构"
+        },
+        {
+          "type": "paragraph",
+          "text": "包含："
+        },
+        {
+          "type": "list",
+          "items": [
+            "数据库设计",
+            "身份认证",
+            "用户架构",
+            "账本基础",
+            "API 架构",
+            "权限模型",
+            "部署架构"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "第二阶段 — Telegram CRM"
+        },
+        {
+          "type": "paragraph",
+          "text": "包含："
+        },
+        {
+          "type": "list",
+          "items": [
+            "Telegram Bot",
+            "Telegram Mini App",
+            "仪表盘",
+            "用户资料",
+            "推荐系统",
+            "团队树",
+            "钱包界面",
+            "通知系统"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "第三阶段 — 补偿引擎"
+        },
+        {
+          "type": "paragraph",
+          "text": "包含："
+        },
+        {
+          "type": "list",
+          "items": [
+            "套餐",
+            "推荐树",
+            "二叉树",
+            "等级引擎",
+            "业绩引擎",
+            "佣金引擎",
+            "上限",
+            "越级奖",
+            "对碰奖",
+            "领导奖",
+            "复购",
+            "促销规则"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "第四阶段 — 一分钟交易"
+        },
+        {
+          "type": "paragraph",
+          "text": "包含："
+        },
+        {
+          "type": "list",
+          "items": [
+            "品种配置",
+            "价格馈送",
+            "订单引擎",
+            "入场时间戳",
+            "到期引擎",
+            "结算",
+            "收益计算",
+            "交易记录",
+            "风控",
+            "审计追踪"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "第五阶段 — RWA"
+        },
+        {
+          "type": "paragraph",
+          "text": "包含："
+        },
+        {
+          "type": "list",
+          "items": [
+            "资产登记",
+            "SPV 记录",
+            "托管人记录",
+            "NAV",
+            "估值",
+            "工具登记",
+            "持有人记录",
+            "赎回流程"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "第六阶段 — LPA-Custodian（族谱连）"
+        },
+        {
+          "type": "paragraph",
+          "text": "包含："
+        },
+        {
+          "type": "list",
+          "items": [
+            "受益人管理",
+            "继承政策",
+            "分配",
+            "触发流程",
+            "核验",
+            "托管人批准",
+            "结算",
+            "对账"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "第七阶段 — 管理后台 / 合规 / QA"
+        },
+        {
+          "type": "paragraph",
+          "text": "包含："
+        },
+        {
+          "type": "list",
+          "items": [
+            "管理后台",
+            "合规仪表盘",
+            "审计",
+            "报表",
+            "监控",
+            "QA",
+            "DevOps",
+            "安全加固"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "47",
+      "title": "47. 开发范围之外的事项",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "80,000 USDT 为软件开发预算。"
+        },
+        {
+          "type": "paragraph",
+          "text": "不自动包含以下内容："
+        },
+        {
+          "type": "list",
+          "items": [
+            "MiCA 牌照费用",
+            "法律费用",
+            "RWA 法律架构搭建",
+            "SPV 设立",
+            "证券律师费用",
+            "衍生品/二元产品牌照",
+            "托管人费用",
+            "银行费用",
+            "KYC 服务商费用",
+            "AML 服务商费用",
+            "区块链 Gas 费",
+            "市场数据费用",
+            "流动性",
+            "做市",
+            "交易所上币",
+            "智能合约审计",
+            "外部审计机构渗透测试",
+            "持续托管/主机费用",
+            "持续维护费用"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "以上事项应另行单独签约安排。"
+        }
+      ]
+    },
+    {
+      "number": "48",
+      "title": "48. 开发路线图",
+      "blocks": [
+        {
+          "type": "subheading",
+          "text": "Phase 1 — 基础设施"
+        },
+        {
+          "type": "paragraph",
+          "text": "架构 + 数据库 + 身份认证 + 账本。"
+        },
+        {
+          "type": "subheading",
+          "text": "Phase 2 — Telegram CRM"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini App + 用户管理 + 推荐系统。"
+        },
+        {
+          "type": "subheading",
+          "text": "Phase 3 — 分销引擎"
+        },
+        {
+          "type": "paragraph",
+          "text": "二元 + 佣金 + 等级 + 业绩量。"
+        },
+        {
+          "type": "subheading",
+          "text": "Phase 4 — 交易"
+        },
+        {
+          "type": "paragraph",
+          "text": "一分钟产品框架 + 结算。"
+        },
+        {
+          "type": "subheading",
+          "text": "Phase 5 — RWA"
+        },
+        {
+          "type": "paragraph",
+          "text": "资产登记 + 估值 + 持仓。"
+        },
+        {
+          "type": "subheading",
+          "text": "Phase 6 — LPA-Custodian（族谱连）"
+        },
+        {
+          "type": "paragraph",
+          "text": "继承 + 受益人 + 托管流程。"
+        },
+        {
+          "type": "subheading",
+          "text": "Phase 7 — 合规 / QA / 上线"
+        },
+        {
+          "type": "paragraph",
+          "text": "测试 + 安全 + 生产环境部署。"
+        }
+      ]
+    },
+    {
+      "number": "49",
+      "title": "49. 生产上线验收标准",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "在满足以下条件之前，系统不应被视为已具备生产上线条件："
+        },
+        {
+          "type": "subheading",
+          "text": "CRM"
+        },
+        {
+          "type": "list",
+          "items": [
+            "推荐关系运作正确。",
+            "二元排位运作正确。",
+            "等级计算可重现。",
+            "佣金计算可审计。"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "财务"
+        },
+        {
+          "type": "list",
+          "items": [
+            "账本平衡。",
+            "每笔交易拥有唯一编号。",
+            "充值与提现可对账。"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "交易"
+        },
+        {
+          "type": "list",
+          "items": [
+            "每笔交易拥有不可篡改的时间戳。",
+            "每笔交易拥有权威价格来源。",
+            "结算不可重复执行。",
+            "已到期交易不可被修改。"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "RWA"
+        },
+        {
+          "type": "list",
+          "items": [
+            "每项资产均有所有权信息。",
+            "托管人身份明确。",
+            "估值已记录。",
+            "工具权利已形成文件。"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "LPA-Custodian（族谱连）"
+        },
+        {
+          "type": "list",
+          "items": [
+            "受益人已完成核验。",
+            "政策已版本化。",
+            "触发事件已记录。",
+            "需经托管人批准。",
+            "分配过程可审计。"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "合规"
+        },
+        {
+          "type": "list",
+          "items": [
+            "KYC 状态被强制执行。",
+            "受限司法管辖区被拦截。",
+            "产品资格已核查。",
+            "AML 警报可冻结相关活动。"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "50",
+      "title": "50. 重要的商业与监管设计原则",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "平台不应将上述所有组件作为单一的通用投资方案进行营销。"
+        },
+        {
+          "type": "paragraph",
+          "text": "相反，客户旅程应清楚表明用户正在使用哪一项具体服务。例如："
+        },
+        {
+          "type": "diagram",
+          "text": "CRYPTO           -> Crypto asset services       -> MiCA / CASP perimeter\nRWA              -> Real-world asset            -> Issuer / SPV / Securities analysis\nTRADING          -> Binary / derivative-style   -> Separate regulatory analysis\nINHERITANCE      -> LPA-Custodian                -> Custody + succession workflow\nDISTRIBUTION     -> Referral / compensation     -> Separate commercial/consumer/jurisdiction review"
+        },
+        {
+          "type": "paragraph",
+          "text": "这一点尤为重要，因为 MiCA 授权并不会自动授权所有可通过加密接口提供的金融产品。"
+        }
+      ]
+    },
+    {
+      "number": "51",
+      "title": "51. 关键合规架构",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "因此，平台应设有一份统一的产品监管矩阵："
+        },
+        {
+          "type": "table",
+          "header": [
+            "产品",
+            "法律主体",
+            "客户类型",
+            "司法管辖区",
+            "所需许可",
+            "状态"
+          ],
+          "rows": [
+            [
+              "加密资产托管",
+              "CASP",
+              "合格客户",
+              "欧盟",
+              "MiCA 范围",
+              "生效中"
+            ],
+            [
+              "加密资产交易所",
+              "CASP",
+              "合格客户",
+              "欧盟",
+              "MiCA 范围",
+              "生效中"
+            ],
+            [
+              "RWA",
+              "SPV/发行方",
+              "合格投资者",
+              "按国别",
+              "法律审查",
+              "受控"
+            ],
+            [
+              "代币化证券",
+              "发行方",
+              "合格投资者",
+              "按国别",
+              "证券法",
+              "受控"
+            ],
+            [
+              "一分钟二元交易",
+              "交易主体",
+              "合格客户",
+              "按国别",
+              "独立分析",
+              "批准前受限"
+            ],
+            [
+              "LPA-Custodian",
+              "平台/托管方",
+              "现有客户",
+              "按国别",
+              "托管/继承",
+              "受控"
+            ],
+            [
+              "MLM 分销佣金",
+              "平台",
+              "会员",
+              "按国别",
+              "本地审查",
+              "受控"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "number": "52",
+      "title": "52. 为何架构采用独立引擎设计",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "一项重要设计目标是避免将当前的业务规则硬编码进应用程序中。相反："
+        },
+        {
+          "type": "diagram",
+          "text": "Product\n   |\n   v\nRules Engine\n   |\n   v\nEligibility\n   |\n   v\nCalculation\n   |\n   v\nLedger\n\nExample jurisdiction gating:\n  Singapore  -> Binary = BLOCK\n  Lithuania  -> Binary = LEGAL REVIEW\n  Country X  -> Binary = ALLOWED"
+        },
+        {
+          "type": "paragraph",
+          "text": "同一平台无需重写整个系统即可保持正常运营。"
+        }
+      ]
+    },
+    {
+      "number": "53",
+      "title": "53. 审计架构",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "每一项重要事件都应生成："
+        },
+        {
+          "type": "diagram",
+          "text": "Event ID          Old Value             Ruleset Version\nUser ID           New Value             Approval Reference\nActor             Timestamp\nAction            IP / Session Reference\nObject"
+        },
+        {
+          "type": "paragraph",
+          "text": "示例："
+        },
+        {
+          "type": "diagram",
+          "text": "COMMISSION_CREATED\nTRADE_ACCEPTED\nTRADE_SETTLED\nRWA_VALUATION_UPDATED\nBENEFICIARY_ADDED\nINHERITANCE_APPROVED\nCUSTODY_RELEASED"
+        }
+      ]
+    },
+    {
+      "number": "54",
+      "title": "54. 对账",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "每日对账应比较：内部账本、托管人、区块链与银行/支付服务商之间的数据。例如："
+        },
+        {
+          "type": "diagram",
+          "text": "Internal USDT:   10,000,000\nCustodian:       10,000,000\nBlockchain:      10,000,000\nDifference:               0"
+        },
+        {
+          "type": "paragraph",
+          "text": "任何差异都将生成异常记录。"
+        }
+      ]
+    },
+    {
+      "number": "55",
+      "title": "55. 运营风险控制",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "平台应支持："
+        },
+        {
+          "type": "list",
+          "items": [
+            "每日限额",
+            "单用户限额",
+            "产品限额",
+            "地域限制",
+            "人工审核",
+            "可疑交易警报",
+            "提现延迟",
+            "托管人批准",
+            "交易暂停",
+            "紧急系统冻结"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "56",
+      "title": "56. 紧急控制机制",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "超级管理员应能够激活："
+        },
+        {
+          "type": "subheading",
+          "text": "交易暂停"
+        },
+        {
+          "type": "paragraph",
+          "text": "停止新交易订单。"
+        },
+        {
+          "type": "subheading",
+          "text": "提现暂停"
+        },
+        {
+          "type": "paragraph",
+          "text": "在保留余额的同时停止提现。"
+        },
+        {
+          "type": "subheading",
+          "text": "佣金暂停"
+        },
+        {
+          "type": "paragraph",
+          "text": "停止佣金结算。"
+        },
+        {
+          "type": "subheading",
+          "text": "RWA 认购暂停"
+        },
+        {
+          "type": "paragraph",
+          "text": "停止新认购。"
+        },
+        {
+          "type": "subheading",
+          "text": "全面紧急模式"
+        },
+        {
+          "type": "paragraph",
+          "text": "停止所有新的金融交易，同时保留历史数据。"
+        },
+        {
+          "type": "paragraph",
+          "text": "这些控制机制本身也应被记录并受权限管控。"
+        }
+      ]
+    },
+    {
+      "number": "57",
+      "title": "57. 建议的用户旅程",
+      "blocks": [
+        {
+          "type": "subheading",
+          "text": "第 1 步"
+        },
+        {
+          "type": "paragraph",
+          "text": "用户打开 Telegram Mini App。"
+        },
+        {
+          "type": "subheading",
+          "text": "第 2 步"
+        },
+        {
+          "type": "paragraph",
+          "text": "创建账户。"
+        },
+        {
+          "type": "subheading",
+          "text": "第 3 步"
+        },
+        {
+          "type": "paragraph",
+          "text": "完成 KYC。"
+        },
+        {
+          "type": "subheading",
+          "text": "第 4 步"
+        },
+        {
+          "type": "paragraph",
+          "text": "获得资格分类。"
+        },
+        {
+          "type": "subheading",
+          "text": "第 5 步"
+        },
+        {
+          "type": "paragraph",
+          "text": "查看可用产品。"
+        },
+        {
+          "type": "subheading",
+          "text": "第 6 步"
+        },
+        {
+          "type": "paragraph",
+          "text": "选择："
+        },
+        {
+          "type": "list",
+          "items": [
+            "加密资产",
+            "RWA",
+            "交易",
+            "分销",
+            "LPA-Custodian（族谱连）"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "第 7 步"
+        },
+        {
+          "type": "paragraph",
+          "text": "每项产品使用其自身的合规规则。"
+        },
+        {
+          "type": "subheading",
+          "text": "第 8 步"
+        },
+        {
+          "type": "paragraph",
+          "text": "金融活动记录于中心账本。"
+        },
+        {
+          "type": "subheading",
+          "text": "第 9 步"
+        },
+        {
+          "type": "paragraph",
+          "text": "托管事务通过获批托管人处理。"
+        },
+        {
+          "type": "subheading",
+          "text": "第 10 步"
+        },
+        {
+          "type": "paragraph",
+          "text": "用户通过统一的 Telegram 界面查看所有活动。"
+        }
+      ]
+    },
+    {
+      "number": "58",
+      "title": "58. 最终产品定位",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "该系统最终可定位为：一个原生于 Telegram 的数字资产与 RWA 金融生态系统，包含四大支柱："
+        },
+        {
+          "type": "subheading",
+          "text": "1. Earn"
+        },
+        {
+          "type": "paragraph",
+          "text": "分销与佣金生态。"
+        },
+        {
+          "type": "subheading",
+          "text": "2. Trade"
+        },
+        {
+          "type": "paragraph",
+          "text": "短周期交易与数字资产产品。"
+        },
+        {
+          "type": "subheading",
+          "text": "3. Own"
+        },
+        {
+          "type": "paragraph",
+          "text": "RWA 与数字资产持有基础设施。"
+        },
+        {
+          "type": "subheading",
+          "text": "4. Protect"
+        },
+        {
+          "type": "paragraph",
+          "text": "托管、继承与 LPA-Custodian（族谱连）传承。"
+        }
+      ]
+    },
+    {
+      "number": "59",
+      "title": "59. 最终架构",
+      "blocks": [
+        {
+          "type": "diagram",
+          "text": "                    DIGITAL ASSET ECOSYSTEM\n                              |\n          +-------------------+-------------------+\n          |                   |                   |\n      CORPORATE              RWA              CRYPTO\n      US LISTED            ASSETS              CASP\n          |                   |                   |\n          +-------------------+-------------------+\n                              |\n                       CORE PLATFORM\n                              |\n       +----------------------+----------------------+\n       |                      |                      |\n     CRM                  TRADING              LPA-CUSTODIAN\n       |                      |                      |\n Sponsor Tree            1-Minute               Beneficiaries\n Binary Tree             Contracts              Policies\n Rank                    Price Feed             Triggers\n Commission              Settlement             Approval\n       |                      |                      |\n       +----------------------+----------------------+\n                              |\n                       DOUBLE-ENTRY LEDGER\n                              |\n                         COMPLIANCE\n                              |\n                    KYC / AML / SANCTIONS\n                              |\n                           CUSTODY\n                              |\n                  BLOCKCHAIN / BANK / RWA"
+        }
+      ]
+    },
+    {
+      "number": "60",
+      "title": "60. 生态系统价值总结",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Dynastree（万承）的每一个组成部分都被设计为整个生态系统的需求驱动因素，而不是孤立的功能模块。每个模块都为会员持续提供持有、充值和在平台内交易的理由，从而随着时间推移不断提升底层加密资产的使用率和流通量。"
+        },
+        {
+          "type": "subheading",
+          "text": "MLM / Distribution CRM"
+        },
+        {
+          "type": "paragraph",
+          "text": "推荐树与二叉家谱的持续增长不断引入新会员和新套餐，扩大了以底层代币进行交易的活跃钱包基数。"
+        },
+        {
+          "type": "subheading",
+          "text": "1-Minute Binary Trading"
+        },
+        {
+          "type": "paragraph",
+          "text": "高频交易活动带来持续的买卖压力和结算流量，为生态系统带来可观的日交易量。"
+        },
+        {
+          "type": "subheading",
+          "text": "RWA Registry & Tokenised Assets"
+        },
+        {
+          "type": "paragraph",
+          "text": "代币化真实资产为持有者提供了将价值留在平台内而非兑换为法币的理由，从而加深链上流动性。"
+        },
+        {
+          "type": "subheading",
+          "text": "LPA-Custodian (族谱连)"
+        },
+        {
+          "type": "paragraph",
+          "text": "LPA-Custodian（族谱连）的继承与传承政策鼓励资产在平台内跨代长期托管，从而降低抛售压力并延长持有周期。"
+        },
+        {
+          "type": "subheading",
+          "text": "Packages & Trading Points"
+        },
+        {
+          "type": "paragraph",
+          "text": "套餐分级、重入规则和每月交易积分持续激励会员参与，强化生态系统内的重复使用和代币流转速度。"
+        },
+        {
+          "type": "subheading",
+          "text": "Custody & Compliance Infrastructure"
+        },
+        {
+          "type": "paragraph",
+          "text": "机构级托管、KYC/AML 与审计控制建立了信任基础，使更大规模的持有者和 RWA 发行方愿意将资本投入该生态系统。"
+        },
+        {
+          "type": "paragraph",
+          "text": "综合来看，分销、交易、真实资产与继承托管共同构成了一个自我强化的循环：会员与产品的增加带动交易量与托管深度的提升，进而提升底层加密资产的需求与实用性，而这又进一步增强了新会员和资产发行方加入该生态系统的价值主张。"
+        }
+      ]
+    },
+    {
+      "number": "61",
+      "title": "61. 最终开发提案",
+      "blocks": [
+        {
+          "type": "callout_hero",
+          "project_label": "项目",
+          "project_text": "MLM-CRM + RWA + Telegram Mini App + 一分钟交易 + LPA-Custodian（族谱连）",
+          "invest_label": "开发投资",
+          "invest_text": "80,000 USDT"
+        },
+        {
+          "type": "callout_payment",
+          "heading": "付款条款",
+          "stages": [
+            {
+              "pct": "50%",
+              "name": "预付款"
+            },
+            {
+              "pct": "25%",
+              "name": "第 2 个月"
+            },
+            {
+              "pct": "25%",
+              "name": "完工结清"
+            }
+          ],
+          "wallet_label": "收款钱包（USDT · BEP20）",
+          "wallet_address": "0x2182490f614dc365a15454734b53193abb4ec45d"
+        },
+        {
+          "type": "subheading",
+          "text": "核心交付物"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Telegram Mini App",
+            "Telegram Bot",
+            "Web 管理后台",
+            "MLM/分销 CRM",
+            "推荐家谱",
+            "二元家谱",
+            "等级系统",
+            "佣金引擎",
+            "收益上限",
+            "交易引擎",
+            "一分钟固定到期产品框架",
+            "价格馈送架构",
+            "结算引擎",
+            "RWA 登记",
+            "RWA 估值",
+            "托管集成框架",
+            "LPA-Custodian（族谱连）继承引擎",
+            "受益人管理",
+            "合规引擎",
+            "KYC/AML 集成框架",
+            "双边记账总账",
+            "审计追踪",
+            "报表",
+            "安全控制",
+            "DevOps",
+            "生产环境部署"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "重要监管说明"
+        },
+        {
+          "type": "paragraph",
+          "text": "立陶宛 MiCA/CASP 架构是适用加密资产服务的基础，而非上述所有组件的一揽子牌照。立陶宛央行现行的 MiCA 相关资料描述了 CASP 授权及相关加密资产服务框架。"
+        },
+        {
+          "type": "paragraph",
+          "text": "一分钟二元产品尤其需要单独隔离处理。ESMA 历史上在欧盟层面的干预措施禁止向零售客户营销、分销或销售二元期权，且在该临时措施到期后，各国的相关措施依然适用。因此，所提议的软件应从第一天起就实施司法管辖区/产品层面的准入控制，而不能假定立陶宛 CASP 牌照本身即允许开展二元产品业务。"
+        },
+        {
+          "type": "paragraph",
+          "text": "同样，如果某项 RWA 实际上构成金融工具，该产品需遵循相关证券框架，而不能被自动视为 MiCA 加密资产。"
+        },
+        {
+          "type": "paragraph",
+          "text": "换言之：80,000 USDT 预算用于构建技术平台；而最终的法律主体、牌照、产品分类、托管安排及司法管辖区，将决定哪些模块可以真正向客户开放使用。"
+        }
+      ]
+    }
+  ],
+  "en": [
+    {
+      "number": "1",
+      "title": "1. Executive Summary",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The proposed platform is a Telegram-first digital asset and RWA ecosystem combining:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "MLM / Distribution CRM",
+            "Binary compensation and genealogy management",
+            "Telegram Mini App",
+            "Crypto wallet and custody integration",
+            "RWA asset registry",
+            "Tokenized/RWA product management",
+            "1-minute fixed-expiry binary trading module",
+            "LPA-Custodian (族谱连) — inheritance and succession system",
+            "Custodian-controlled asset distribution",
+            "KYC / AML / sanctions / jurisdiction controls",
+            "Admin and compliance management",
+            "Double-entry financial ledger",
+            "US-listed corporate / strategic asset layer",
+            "Lithuanian MiCA/CASP compliance architecture"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The core principle is that these functions should not be treated as one undifferentiated financial product."
+        },
+        {
+          "type": "paragraph",
+          "text": "The software should provide a unified user experience while maintaining separate technical and compliance boundaries between:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Crypto services",
+            "RWA",
+            "Securities",
+            "Trading/binary products",
+            "MLM/distribution",
+            "Custody",
+            "Inheritance",
+            "Corporate activities"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "This architecture makes it possible for the platform to expand into different jurisdictions and product categories without rebuilding the core CRM."
+        }
+      ]
+    },
+    {
+      "number": "2",
+      "title": "2. Overall Business Concept",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The platform can be structured as five interconnected layers."
+        },
+        {
+          "type": "subheading",
+          "text": "Layer 1 — Corporate / US Listed Company"
+        },
+        {
+          "type": "paragraph",
+          "text": "The US-listed company can act as the strategic corporate layer for:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Technology",
+            "RWA investment",
+            "Strategic partnerships",
+            "Treasury",
+            "Corporate investments",
+            "Acquisitions",
+            "Business development",
+            "Potential listed-company-related digital assets or securities"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Any securities associated with the US-listed company must remain subject to their own securities-law analysis."
+        },
+        {
+          "type": "paragraph",
+          "text": "A blockchain representation does not automatically make a security a crypto-asset under MiCA."
+        },
+        {
+          "type": "subheading",
+          "text": "Layer 2 — Lithuanian MiCA / CASP Entity"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Lithuanian entity provides applicable crypto-asset services within its authorised scope."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Bank of Lithuania states that entities intending to provide crypto-asset services in the EU must obtain the appropriate authorisation, subject to the MiCA framework and applicable exemptions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Examples of crypto services potentially relevant to the architecture include:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Custody and administration",
+            "Transfer services",
+            "Reception/transmission of orders",
+            "Execution of orders",
+            "Exchange of crypto-assets for funds",
+            "Exchange of crypto-assets for other crypto-assets"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The exact services available to the project depend on the actual authorisation obtained."
+        },
+        {
+          "type": "paragraph",
+          "text": "As of 2026, Lithuania's MiCA transition period has ended, and the Bank of Lithuania has stated that unlicensed providers cannot continue providing crypto-asset services in the EU under the transitional framework."
+        },
+        {
+          "type": "subheading",
+          "text": "Layer 3 — RWA / Asset Infrastructure"
+        },
+        {
+          "type": "paragraph",
+          "text": "The RWA layer manages:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Real-world assets",
+            "SPVs",
+            "Asset ownership",
+            "Custodians",
+            "Valuations",
+            "Token/instrument records",
+            "Investor/holder records",
+            "Redemption",
+            "Transfers",
+            "Corporate documentation"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Layer 4 — Distribution / Trading Ecosystem"
+        },
+        {
+          "type": "paragraph",
+          "text": "This contains:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Referral system",
+            "Sponsor genealogy",
+            "Binary tree",
+            "Rank engine",
+            "Volume engine",
+            "Commission engine",
+            "Trading engine",
+            "Promotional campaigns",
+            "Trading points",
+            "Daily limits",
+            "Package limits"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Layer 5 — LPA-Custodian (族谱连)"
+        },
+        {
+          "type": "paragraph",
+          "text": "LPA-Custodian (族谱连) provides a digital inheritance/succession mechanism."
+        },
+        {
+          "type": "paragraph",
+          "text": "It allows an asset owner to establish: who receives what, under what circumstances, subject to what verification and custodian approval."
+        },
+        {
+          "type": "paragraph",
+          "text": "The platform does not need to hold the private keys itself."
+        },
+        {
+          "type": "paragraph",
+          "text": "Instead: Owner → LPA-Custodian Policy → Verification → Compliance → Custodian → Beneficiary"
+        }
+      ]
+    },
+    {
+      "number": "3",
+      "title": "3. System Architecture",
+      "blocks": [
+        {
+          "type": "subheading",
+          "text": "3.1 High-Level Architecture"
+        },
+        {
+          "type": "diagram",
+          "text": "                     ┌─────────────────────┐\n                     │   US LISTED COMPANY  │\n                     │ Corporate / RWA Hub  │\n                     └──────────┬───────────┘\n                                │\n                 ┌──────────────▼──────────────┐\n                 │        RWA PLATFORM         │\n                 │ Assets / SPV / NAV / Rights │\n                 └──────────────┬──────────────┘\n                                │\n          ┌─────────────────────▼─────────────────────┐\n          │             CORE PLATFORM                  │\n          │  Identity / CRM / Ledger / Rules / Audit   │\n          └───────┬─────────────┬─────────────┬────────┘\n                  │             │             │\n         ┌────────▼──────┐ ┌────▼──────┐ ┌────▼─────────┐\n         │  DISTRIBUTION │ │  TRADING  │ │ LPA-CUSTODIAN │\n         │     ENGINE    │ │  ENGINE   │ │  INHERITANCE  │\n         └───────────────┘ └───────────┘ └──────┬────────┘\n                                                 │\n                                          ┌──────▼──────┐\n                                          │  CUSTODIAN  │\n                                          │ Settlement  │\n                                          └─────────────┘"
+        }
+      ]
+    },
+    {
+      "number": "4",
+      "title": "4. Telegram Mini App",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Telegram is the primary member interface."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Mini App should provide an experience similar to a financial super-app."
+        },
+        {
+          "type": "subheading",
+          "text": "Main Navigation"
+        },
+        {
+          "type": "subheading",
+          "text": "Dashboard"
+        },
+        {
+          "type": "paragraph",
+          "text": "Display:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Total balance",
+            "Available balance",
+            "Staked/locked balance",
+            "Trading balance",
+            "RWA holdings",
+            "Commission balance",
+            "Binary volume",
+            "Rank",
+            "Team volume",
+            "Daily earning limit",
+            "Referral rewards"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Wallet"
+        },
+        {
+          "type": "paragraph",
+          "text": "Functions:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Deposit",
+            "Withdraw",
+            "Internal transfer",
+            "Transaction history",
+            "Asset balances",
+            "Blockchain transaction IDs",
+            "Custody status"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "My Team"
+        },
+        {
+          "type": "paragraph",
+          "text": "Display:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Direct referrals",
+            "Left team",
+            "Right team",
+            "Team volume",
+            "Rank",
+            "Matching bonus",
+            "Leadership levels",
+            "Weak-side qualification",
+            "Active/inactive members"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Trading"
+        },
+        {
+          "type": "paragraph",
+          "text": "Display:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Available instruments",
+            "Current price",
+            "Countdown",
+            "Trade amount",
+            "Direction/proposition",
+            "Expiry",
+            "Settlement result",
+            "Trading history"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "RWA"
+        },
+        {
+          "type": "paragraph",
+          "text": "Display:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "RWA products",
+            "Asset description",
+            "Issuer/SPV",
+            "Custodian",
+            "Current valuation",
+            "Units held",
+            "Subscription status",
+            "Redemption availability",
+            "Documents"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "LPA-Custodian (族谱连)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Display:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "My inheritance plan",
+            "Beneficiaries",
+            "Asset allocation",
+            "Trigger status",
+            "Verification status",
+            "Custodian status"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Rewards"
+        },
+        {
+          "type": "paragraph",
+          "text": "Display:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Direct commission",
+            "Matching bonus",
+            "Leadership",
+            "Binary commission",
+            "Promotional rewards",
+            "Trading points"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "5",
+      "title": "5. Identity & KYC",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Every user should have a central identity record."
+        },
+        {
+          "type": "diagram",
+          "text": "User\n |-- Telegram ID\n |-- Internal User ID\n |-- KYC Status\n |-- Jurisdiction\n |-- Risk Classification\n |-- Wallet(s)\n |-- Sponsor\n |-- Binary Position\n |-- RWA Holdings\n |-- Trading Account\n `-- LPA-Custodian Policy"
+        },
+        {
+          "type": "paragraph",
+          "text": "The system should distinguish:"
+        },
+        {
+          "type": "subheading",
+          "text": "Identity Status"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Registered",
+            "KYC pending",
+            "KYC approved",
+            "KYC rejected",
+            "Restricted",
+            "Suspended",
+            "Closed"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Jurisdiction Status"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Allowed",
+            "Restricted",
+            "Prohibited",
+            "Manual review"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "This allows the platform to prevent restricted products from being displayed to users who are not eligible."
+        }
+      ]
+    },
+    {
+      "number": "6",
+      "title": "6. MLM / Distribution CRM",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The CRM should technically be called a: Distribution & Referral Engine"
+        },
+        {
+          "type": "paragraph",
+          "text": "This provides flexibility for regulatory and jurisdictional presentation."
+        },
+        {
+          "type": "paragraph",
+          "text": "It consists of two different structures."
+        },
+        {
+          "type": "subheading",
+          "text": "6.1 Sponsor Tree"
+        },
+        {
+          "type": "paragraph",
+          "text": "The sponsor tree records: Who introduced whom. Example:"
+        },
+        {
+          "type": "diagram",
+          "text": "Alice\n |-- Bob\n |    |-- David\n |    `-- Emma\n |\n `-- Charlie\n      |-- Frank\n      `-- Grace"
+        },
+        {
+          "type": "paragraph",
+          "text": "This controls:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Direct sponsor commission",
+            "Roll-up",
+            "Matching bonus",
+            "Leadership"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "7",
+      "title": "7. Binary Placement Tree",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The binary tree is separate from sponsorship. Example:"
+        },
+        {
+          "type": "diagram",
+          "text": "                    Alice\n                  /       \\\n              Bob           Charlie\n             /   \\         /       \\\n          David  Emma    Frank     Grace"
+        },
+        {
+          "type": "paragraph",
+          "text": "A member may personally sponsor someone but place that person somewhere else in the binary structure."
+        },
+        {
+          "type": "paragraph",
+          "text": "This separation is critical."
+        },
+        {
+          "type": "subheading",
+          "text": "Sponsor relationship"
+        },
+        {
+          "type": "paragraph",
+          "text": "Who introduced the member?"
+        },
+        {
+          "type": "subheading",
+          "text": "Binary relationship"
+        },
+        {
+          "type": "paragraph",
+          "text": "Where is the member positioned?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The system must never overwrite one because of changes to the other."
+        }
+      ]
+    },
+    {
+      "number": "8",
+      "title": "8. Package Structure",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The supplied commercial model can be represented as follows."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Package",
+            "Price",
+            "Token A",
+            "Token B",
+            "Minimum Term",
+            "Maximum Earning"
+          ],
+          "rows": [
+            [
+              "Trial",
+              "USD 300",
+              "150",
+              "150",
+              "3 months",
+              "USD 600"
+            ],
+            [
+              "Builder",
+              "USD 1,000",
+              "500",
+              "500",
+              "6/9/12 months",
+              "USD 3,000"
+            ],
+            [
+              "Elite",
+              "USD 5,000",
+              "2,500",
+              "2,500",
+              "6/9/12 months",
+              "USD 20,000"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The Trial package expires after three months unless upgraded according to the applicable programme rules."
+        }
+      ]
+    },
+    {
+      "number": "9",
+      "title": "9. Rank & Commission Engine",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The system should make every commission configurable rather than hard-coded."
+        },
+        {
+          "type": "table",
+          "header": [
+            "Metric",
+            "Trial",
+            "Builder",
+            "Elite",
+            "V1",
+            "V2",
+            "V3"
+          ],
+          "rows": [
+            [
+              "Package Requirement",
+              "300",
+              "1,000",
+              "5,000",
+              "N/A",
+              "N/A",
+              "N/A"
+            ],
+            [
+              "Direct Sponsor",
+              "8%",
+              "10%",
+              "12%",
+              "13%",
+              "14%",
+              "15%"
+            ],
+            [
+              "Roll-Up",
+              "N/A",
+              "2%",
+              "2%",
+              "1%",
+              "1%",
+              "1%"
+            ],
+            [
+              "Matching Bonus",
+              "8%",
+              "9%",
+              "10%",
+              "11%",
+              "12%",
+              "13%"
+            ],
+            [
+              "Leadership",
+              "N/A",
+              "2 levels",
+              "4",
+              "6",
+              "8",
+              "10"
+            ],
+            [
+              "Trading Frequency",
+              "3",
+              "4",
+              "5",
+              "5",
+              "5",
+              "5"
+            ],
+            [
+              "Goldmine",
+              "N/A",
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            [
+              "Binary Daily Cap",
+              "100",
+              "500",
+              "3,000",
+              "5,000",
+              "10,000",
+              "20,000"
+            ],
+            [
+              "Re-entry Cap",
+              "600",
+              "3,000",
+              "20,000",
+              "20,000",
+              "20,000",
+              "20,000"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "All percentages and limits should be stored in a versioned rules table."
+        }
+      ]
+    },
+    {
+      "number": "10",
+      "title": "10. Binary Compensation Engine",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The binary commission engine should calculate: Left Qualifying Volume + Right Qualifying Volume = Matched Volume"
+        },
+        {
+          "type": "paragraph",
+          "text": "For example:"
+        },
+        {
+          "type": "diagram",
+          "text": "Left Volume:      20,000\nRight Volume:     15,000\nMatched Volume  = 15,000\nRemaining Left  =  5,000\nRemaining Right =      0"
+        },
+        {
+          "type": "paragraph",
+          "text": "The commission is calculated from the matched amount according to the member's rank/package."
+        },
+        {
+          "type": "paragraph",
+          "text": "The system should retain the remaining volume where applicable."
+        }
+      ]
+    },
+    {
+      "number": "11",
+      "title": "11. Earning Caps",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Each package has a maximum earning cap. Example:"
+        },
+        {
+          "type": "diagram",
+          "text": "Trial\nInvestment:              USD 300\nMaximum package earnings: USD 600"
+        },
+        {
+          "type": "paragraph",
+          "text": "The system should stop eligible package-level binary earnings once the cap is reached."
+        },
+        {
+          "type": "paragraph",
+          "text": "The user may only re-enter if the programme rules permit the purchase of another qualifying package."
+        },
+        {
+          "type": "paragraph",
+          "text": "This must be enforced at the backend level. It must not depend on the Telegram interface."
+        }
+      ]
+    },
+    {
+      "number": "12",
+      "title": "12. Daily Trading",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The system can support configurable trading frequency. Example:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Rank",
+            "Trades/day"
+          ],
+          "rows": [
+            [
+              "Trial",
+              "3"
+            ],
+            [
+              "Builder",
+              "4"
+            ],
+            [
+              "Elite",
+              "5"
+            ],
+            [
+              "V1–V3",
+              "5"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The trading engine should maintain: Daily Trade Count, Daily Trade Limit, Remaining Trades"
+        }
+      ]
+    },
+    {
+      "number": "13",
+      "title": "13. Trading Goldmine",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The Goldmine mechanism can be represented as a configurable incentive derived from eligible member trading activity."
+        },
+        {
+          "type": "paragraph",
+          "text": "The system records:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Source member",
+            "Trading activity",
+            "Eligible profit",
+            "Goldmine level",
+            "Applicable percentage",
+            "Beneficiary/upline",
+            "Calculation",
+            "Settlement"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "No commission should be calculated from an unverified trading result."
+        }
+      ]
+    },
+    {
+      "number": "14",
+      "title": "14. Monthly Trading Points",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The promotional structure can be represented as:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Package",
+            "10% Monthly Bonus",
+            "20% Monthly Bonus",
+            "Maximum Daily Limit"
+          ],
+          "rows": [
+            [
+              "Trial",
+              "USD 30",
+              "USD 60",
+              "USD 6–12/day"
+            ],
+            [
+              "Builder",
+              "USD 100",
+              "USD 200",
+              "USD 20–40/day"
+            ],
+            [
+              "Elite",
+              "USD 500",
+              "USD 1,000",
+              "USD 100–200/day"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Points should have:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Monthly expiry",
+            "No cash withdrawal",
+            "No unauthorised transfer",
+            "Clear conversion/settlement rules"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Only qualifying net trading profit should be paid where the approved programme rules require this."
+        }
+      ]
+    },
+    {
+      "number": "15",
+      "title": "15. One-Minute Binary Options",
+      "blocks": [
+        {
+          "type": "subheading",
+          "text": "15.1 What Is a Binary Option?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A binary option is generally a fixed-outcome contract based on whether a defined condition is met at expiry."
+        },
+        {
+          "type": "paragraph",
+          "text": "The CFTC describes binary options as an all-or-nothing investment in which the outcome depends on a yes/no condition at expiration."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example: \"Will BTC/USD be above 100,000 at 12:01:00?\""
+        },
+        {
+          "type": "paragraph",
+          "text": "The user chooses YES or NO. The contract expires one minute later."
+        }
+      ]
+    },
+    {
+      "number": "16",
+      "title": "16. Example of a One-Minute Trade",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Suppose:"
+        },
+        {
+          "type": "diagram",
+          "text": "Underlying:              BTC/USD\nCurrent reference price: 100,000\nProposition:  BTC/USD will be above 100,000 at expiry.\nDuration:     1 minute\nStake:        100 USDT\nExample payout: 180 USDT total\n\nScenario A - YES Wins   (Settlement price = 100,250, condition TRUE)\n  Stake:   100 USDT\n  Payout:   80 USDT\n  Total:   180 USDT\n\nScenario B - YES Loses  (Settlement price = 99,850, condition FALSE)\n  Stake:   100 USDT\n  Payout:     0\n  Loss:    100 USDT\n\nScenario C - Exact Price (Settlement price = 100,000, tie)\n  Predefined tie rule applies, e.g.:\n    - Equal = loss\n    - Equal = refund\n    - Equal = void"
+        },
+        {
+          "type": "paragraph",
+          "text": "This rule must be disclosed before trading."
+        }
+      ]
+    },
+    {
+      "number": "17",
+      "title": "17. One-Minute Trading Technical Flow",
+      "blocks": [
+        {
+          "type": "diagram",
+          "text": "User\n |\n v\nTelegram Mini App\n |\n v\nTrade Request\n |\n v\nRisk / Eligibility Check\n |-- KYC\n |-- Jurisdiction\n |-- Balance\n |-- Product eligibility\n `-- Trade limits\n |\n v\nPrice Validation\n |\n v\nOrder Accepted\n |\n v\nImmutable Entry Timestamp\n |\n v\n60-Second Countdown\n |\n v\nExpiry\n |\n v\nAuthoritative Price\n |\n v\nOutcome Calculation\n |\n v\nSettlement\n |\n v\nDouble-Entry Ledger\n |\n v\nUser Balance"
+        }
+      ]
+    },
+    {
+      "number": "18",
+      "title": "18. One-Minute Trading Security",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "This part is extremely important."
+        },
+        {
+          "type": "paragraph",
+          "text": "The system should not rely on the user's phone clock."
+        },
+        {
+          "type": "paragraph",
+          "text": "The server must determine:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Entry time",
+            "Expiry time",
+            "Reference price",
+            "Settlement price"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Every trade receives a unique ID. Example:"
+        },
+        {
+          "type": "diagram",
+          "text": "TRADE-20260924-000001\n\nRecord contains:\n  Trade ID          User ID           Instrument\n  Direction         Entry price       Entry timestamp\n  Stake             Expiry timestamp  Settlement price\n  Outcome           Payout            Ruleset version\n  Price-feed ID     Settlement timestamp"
+        }
+      ]
+    },
+    {
+      "number": "19",
+      "title": "19. Price Oracle Architecture",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The system needs an authoritative pricing mechanism. Possible structure:"
+        },
+        {
+          "type": "diagram",
+          "text": "Exchange A     Exchange B     Exchange C\n     \\             |              /\n      \\            |             /\n       v           v            v\n            Price Aggregator\n                    |\n                    v\n        Validated Reference Price\n                    |\n                    v\n              Trading Engine"
+        },
+        {
+          "type": "paragraph",
+          "text": "The system should protect against:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Exchange outage",
+            "Price manipulation",
+            "Stale prices",
+            "Flash crashes",
+            "API delay",
+            "Duplicate prices",
+            "Missing candles",
+            "Time-zone errors"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "20",
+      "title": "20. Critical Regulatory Point Regarding Binary Options",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The one-minute binary component must not simply be assumed to fall under a Lithuanian MiCA/CASP licence."
+        },
+        {
+          "type": "paragraph",
+          "text": "ESMA previously imposed an EU-wide temporary prohibition on the marketing, distribution and sale of binary options to retail clients. ESMA later allowed that temporary EU measure to expire in July 2019 because national authorities had adopted permanent measures in many cases."
+        },
+        {
+          "type": "paragraph",
+          "text": "ESMA's definition covered contracts where payment is limited to a predetermined fixed amount or zero depending on whether predetermined conditions relating to an underlying are satisfied."
+        },
+        {
+          "type": "paragraph",
+          "text": "Therefore the architecture should have a separate Binary Product Regulatory Perimeter before launch."
+        },
+        {
+          "type": "paragraph",
+          "text": "The legal analysis needs to determine:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Product classification",
+            "Client classification",
+            "Jurisdiction",
+            "Issuer",
+            "Trading venue",
+            "Counterparty",
+            "Hedging model",
+            "Marketing model",
+            "Settlement model",
+            "Applicable derivatives/securities rules"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The software should support jurisdiction blocking until this analysis is completed."
+        }
+      ]
+    },
+    {
+      "number": "21",
+      "title": "21. RWA Infrastructure",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The RWA system should maintain a complete asset registry."
+        },
+        {
+          "type": "subheading",
+          "text": "Asset Record"
+        },
+        {
+          "type": "diagram",
+          "text": "Asset ID              Custodian             Documents\nAsset Type            Valuation             Token/Instrument\nLegal Owner           Valuation Date        Supply\nSPV                   Valuation Methodology Redemption\nJurisdiction          Insurance             Transfer Restrictions\n                                            Status"
+        }
+      ]
+    },
+    {
+      "number": "22",
+      "title": "22. Example RWA — Tokenised Gold",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Example:"
+        },
+        {
+          "type": "diagram",
+          "text": "Gold Asset\n   |\n   v\nSPV / Legal Owner\n   |\n   v\nApproved Custodian\n   |\n   v\nIndependent Valuation\n   |\n   v\nDigital Instrument\n   |\n   v\nInvestor / Holder Registry"
+        },
+        {
+          "type": "paragraph",
+          "text": "Suppose the underlying gold is valued at: USD 10 million"
+        },
+        {
+          "type": "paragraph",
+          "text": "The platform records:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Quantity",
+            "Purity",
+            "Custodian",
+            "Location",
+            "Insurance",
+            "Ownership",
+            "Valuation",
+            "Legal documentation"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "If digital units are issued, the platform records: Underlying asset + Legal rights + Digital representation"
+        },
+        {
+          "type": "paragraph",
+          "text": "The token should never be represented as automatically equivalent to the underlying asset unless the legal documentation establishes that relationship."
+        }
+      ]
+    },
+    {
+      "number": "23",
+      "title": "23. RWA NAV Engine",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The system can maintain: Gross Asset Value − Liabilities = NAV. Example:"
+        },
+        {
+          "type": "diagram",
+          "text": "Gold value                10,000,000\nOther assets                 500,000\nLiabilities                  200,000\n                           ----------\nNAV                       10,300,000"
+        },
+        {
+          "type": "paragraph",
+          "text": "The valuation should include:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Timestamp",
+            "Source",
+            "Methodology",
+            "Approver",
+            "Version"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "24",
+      "title": "24. RWA Redemption",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Example workflow:"
+        },
+        {
+          "type": "diagram",
+          "text": "Investor\n   |\n   v\nRedemption Request\n   |\n   v\nEligibility Check\n   |\n   v\nValuation\n   |\n   v\nFee Calculation\n   |\n   v\nCompliance Check\n   |\n   v\nCustodian / Issuer Approval\n   |\n   v\nSettlement"
+        }
+      ]
+    },
+    {
+      "number": "25",
+      "title": "25. US-Listed Company Integration",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The US-listed company should be treated as a separate corporate entity."
+        },
+        {
+          "type": "paragraph",
+          "text": "Potential role:"
+        },
+        {
+          "type": "subheading",
+          "text": "Corporate Treasury"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Cash",
+            "Crypto",
+            "RWA investments",
+            "Strategic assets"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Corporate Partnerships"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Technology providers",
+            "Custodians",
+            "Exchanges",
+            "RWA providers",
+            "Institutional investors"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Corporate Investment"
+        },
+        {
+          "type": "list",
+          "items": [
+            "RWA",
+            "Technology",
+            "Infrastructure",
+            "Strategic acquisitions"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "26",
+      "title": "26. Tokenised US-Listed Company Assets",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "If the ecosystem eventually creates a digital instrument representing:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Shares",
+            "Convertible interests",
+            "Revenue rights",
+            "Debt",
+            "Warrants",
+            "Other financial interests"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "the system must determine whether the product is a financial instrument/security rather than simply a MiCA crypto-asset."
+        },
+        {
+          "type": "paragraph",
+          "text": "This means a separate securities-law workstream is required."
+        },
+        {
+          "type": "paragraph",
+          "text": "The technical platform should therefore support:"
+        },
+        {
+          "type": "diagram",
+          "text": "Crypto Asset\n      |\n      |-- MiCA/CASP pathway\n      |\n      `-- Financial Instrument\n              |\n              `-- Securities pathway"
+        }
+      ]
+    },
+    {
+      "number": "27",
+      "title": "27. LPA-Custodian (族谱连) — Inheritance System",
+      "blocks": [
+        {
+          "type": "subheading",
+          "text": "Concept"
+        },
+        {
+          "type": "paragraph",
+          "text": "LPA-Custodian (族谱连) is an inheritance infrastructure layer for:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Crypto",
+            "Stablecoins",
+            "RWA",
+            "Tokenised assets",
+            "Custodied assets",
+            "Other approved digital property"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "It is essentially: A programmable inheritance policy connected to a regulated custody and settlement system."
+        }
+      ]
+    },
+    {
+      "number": "28",
+      "title": "28. LPA-Custodian (族谱连) Example",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Suppose:"
+        },
+        {
+          "type": "diagram",
+          "text": "Owner: Alice\nAssets:\n  1,000,000 USDT\n  500,000 RWA units\n  100,000 BTC-equivalent\n\nBeneficiary A  50%\nBeneficiary B  30%\nBeneficiary C  20%"
+        },
+        {
+          "type": "paragraph",
+          "text": "The system stores the policy. It does not automatically transfer the assets merely because the policy exists."
+        }
+      ]
+    },
+    {
+      "number": "29",
+      "title": "29. Inheritance Trigger",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Possible trigger states:"
+        },
+        {
+          "type": "diagram",
+          "text": "ACTIVE\n   |\n   v\nTRIGGER SUBMITTED\n   |\n   v\nDOCUMENT VERIFICATION\n   |\n   v\nKYC / AML REVIEW\n   |\n   v\nCUSTODIAN REVIEW\n   |\n   v\nAPPROVED\n   |\n   v\nSETTLEMENT\n   |\n   v\nCOMPLETED"
+        }
+      ]
+    },
+    {
+      "number": "30",
+      "title": "30. LPA-Custodian (族谱连) Custodian Architecture",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The CRM should not hold the private keys. Instead:"
+        },
+        {
+          "type": "diagram",
+          "text": "LPA-Custodian\n   |\n   | Settlement Instruction\n   v\nCustodian\n   |\n   | Actual Asset\n   v\nBlockchain / Bank / RWA Registry"
+        },
+        {
+          "type": "paragraph",
+          "text": "The custodian executes the transaction. This provides an additional separation between: Policy and Asset control"
+        }
+      ]
+    },
+    {
+      "number": "31",
+      "title": "31. Beneficiary Verification",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Before distribution: Beneficiary must pass:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Identity verification",
+            "Sanctions screening",
+            "Jurisdiction check",
+            "Eligibility check",
+            "Required documentation",
+            "Tax/documentation requirements where applicable"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Only after approval can the system generate a settlement instruction."
+        }
+      ]
+    },
+    {
+      "number": "32",
+      "title": "32. Inheritance Allocation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Example:"
+        },
+        {
+          "type": "diagram",
+          "text": "Total eligible assets = 1,000,000 USDT\nBeneficiary A = 50%  -> 500,000\nBeneficiary B = 30%  -> 300,000\nBeneficiary C = 20%  -> 200,000"
+        },
+        {
+          "type": "paragraph",
+          "text": "The actual distribution is then performed by the custodian."
+        }
+      ]
+    },
+    {
+      "number": "33",
+      "title": "33. LPA-Custodian (族谱连) Versioning",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Inheritance policies must be version-controlled. Example:"
+        },
+        {
+          "type": "diagram",
+          "text": "Policy V1\n  A = 50%   B = 30%   C = 20%\n        |\n        v\nPolicy V2\n  A = 40%   B = 40%   C = 20%\n\n(V1 is preserved; history is never overwritten)"
+        },
+        {
+          "type": "paragraph",
+          "text": "The system must preserve V1. It must never overwrite historical policies."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is important for disputes and auditability."
+        }
+      ]
+    },
+    {
+      "number": "34",
+      "title": "34. Custodian Architecture",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The custody architecture should be:"
+        },
+        {
+          "type": "diagram",
+          "text": "User\n |\n v\nPlatform\n |-- KYC\n |-- AML\n |-- Limits\n |-- Risk\n `-- Policy\n |\n v\nApproval\n |\n v\nCustodian\n |\n v\nBlockchain / Bank"
+        },
+        {
+          "type": "paragraph",
+          "text": "The platform records:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Request",
+            "Approval",
+            "Custodian reference",
+            "Blockchain transaction hash",
+            "Settlement status"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "35",
+      "title": "35. Double-Entry Ledger",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The financial system should not rely solely on wallet balances."
+        },
+        {
+          "type": "paragraph",
+          "text": "Every financial event should produce ledger entries. Example:"
+        },
+        {
+          "type": "diagram",
+          "text": "Deposit\n  Debit:  Custody Asset\n  Credit: Customer Liability\n\nCommission\n  Debit:  Commission Expense\n  Credit: Member Payable\n\nTrading Profit\n  Debit:  Trading Settlement\n  Credit: Member Balance"
+        },
+        {
+          "type": "paragraph",
+          "text": "This allows reconciliation."
+        }
+      ]
+    },
+    {
+      "number": "36",
+      "title": "36. Ledger Architecture",
+      "blocks": [
+        {
+          "type": "diagram",
+          "text": "Account\n  |-- Asset\n  |-- Liability\n  |-- Revenue\n  |-- Expense\n  |-- Commission\n  |-- Trading\n  |-- RWA\n  `-- Custody\n\nTotal Debits = Total Credits  (every transaction must balance)"
+        }
+      ]
+    },
+    {
+      "number": "37",
+      "title": "37. Admin Dashboard",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The administrator should have separate modules."
+        },
+        {
+          "type": "subheading",
+          "text": "Dashboard"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Users",
+            "Assets",
+            "Trading",
+            "Deposits",
+            "Withdrawals",
+            "Commissions",
+            "RWA",
+            "Compliance",
+            "Custody",
+            "LPA-Custodian (族谱连)"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "38",
+      "title": "38. Compliance Dashboard",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Display:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "KYC Pending",
+            "KYC Approved",
+            "KYC Rejected",
+            "AML Alerts",
+            "Sanctions Alerts",
+            "Restricted Countries",
+            "Suspicious Activity",
+            "High Value Transactions",
+            "Manual Reviews"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "39",
+      "title": "39. Compliance Rules Engine",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Instead of hard-coding restrictions:"
+        },
+        {
+          "type": "diagram",
+          "text": "IF User.Country = Restricted AND Product = Binary THEN Block\n\nIF User.KYC != APPROVED THEN Block Trading\n\nIF Product.Type = Securities THEN Require Securities Eligibility"
+        }
+      ]
+    },
+    {
+      "number": "40",
+      "title": "40. Security Architecture",
+      "blocks": [
+        {
+          "type": "subheading",
+          "text": "Authentication"
+        },
+        {
+          "type": "paragraph",
+          "text": "Telegram authentication must be validated server-side."
+        },
+        {
+          "type": "subheading",
+          "text": "Access control"
+        },
+        {
+          "type": "paragraph",
+          "text": "Use:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "RBAC",
+            "Admin roles",
+            "Compliance roles",
+            "Finance roles",
+            "Custodian roles",
+            "Super-admin"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "41",
+      "title": "41. Sensitive Operations",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The following should require elevated permissions:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Changing sponsor",
+            "Changing binary placement",
+            "Changing commission rules",
+            "Changing package rules",
+            "Custody release",
+            "RWA valuation",
+            "Inheritance approval",
+            "Beneficiary change",
+            "Manual balance adjustment"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "42",
+      "title": "42. Maker-Checker",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Sensitive operations should use:"
+        },
+        {
+          "type": "diagram",
+          "text": "Maker\n  |\n  v\nRequest\n  |\n  v\nChecker\n  |\n  v\nApproval\n  |\n  v\nExecution"
+        },
+        {
+          "type": "paragraph",
+          "text": "No single administrator should silently modify the ledger or release assets."
+        }
+      ]
+    },
+    {
+      "number": "43",
+      "title": "43. Technology Stack",
+      "blocks": [
+        {
+          "type": "subheading",
+          "text": "Frontend"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Telegram Mini App",
+            "React",
+            "Next.js",
+            "Tailwind CSS"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Backend"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Node.js",
+            "TypeScript",
+            "REST API",
+            "WebSocket where required"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Database"
+        },
+        {
+          "type": "list",
+          "items": [
+            "PostgreSQL",
+            "Supabase"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Background Processing"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Redis-compatible queue",
+            "Workers",
+            "Scheduled jobs"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Blockchain"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Chain-specific RPC",
+            "Wallet connection",
+            "Transaction indexer",
+            "Blockchain explorer integration"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Custody"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Institutional custodian API"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Compliance"
+        },
+        {
+          "type": "list",
+          "items": [
+            "KYC provider",
+            "AML provider",
+            "Sanctions screening"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "44",
+      "title": "44. Core Database Modules",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The following data modules should be maintained by the platform:"
+        },
+        {
+          "type": "diagram",
+          "text": "users                     rwa_assets                inheritance_policies\nuser_kyc                  rwa_spvs                  beneficiaries\nuser_wallets              rwa_valuations            inheritance_events\nsponsors                  rwa_instruments           inheritance_allocations\nbinary_nodes              rwa_holdings              inheritance_settlements\nbinary_volume             custodians                ledger_accounts\npackages                  custody_accounts          ledger_transactions\npackage_rules             custody_transactions      ledger_entries\nrank_rules                                           compliance_cases\ncommission_rules                                     aml_alerts\ncommission_transactions                              sanctions_checks\ncommission_ledger                                    audit_logs\ntrading_accounts                                     system_rules\ntrading_orders\ntrading_settlements\nprice_feeds"
+        }
+      ]
+    },
+    {
+      "number": "45",
+      "title": "45. Development Budget",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "**Total Development Budget: 80,000 USDT**"
+        }
+      ]
+    },
+    {
+      "number": "46",
+      "title": "46. Development Scope",
+      "blocks": [
+        {
+          "type": "subheading",
+          "text": "Phase 1 — Architecture"
+        },
+        {
+          "type": "paragraph",
+          "text": "Includes:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Database design",
+            "Authentication",
+            "User architecture",
+            "Ledger foundation",
+            "API architecture",
+            "Permission model",
+            "Deployment architecture"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Phase 2 — Telegram CRM"
+        },
+        {
+          "type": "paragraph",
+          "text": "Includes:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Telegram Bot",
+            "Telegram Mini App",
+            "Dashboard",
+            "User profile",
+            "Sponsor system",
+            "Team tree",
+            "Wallet interface",
+            "Notifications"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Phase 3 — Compensation Engine"
+        },
+        {
+          "type": "paragraph",
+          "text": "Includes:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Packages",
+            "Sponsor tree",
+            "Binary tree",
+            "Rank engine",
+            "Volume engine",
+            "Commission engine",
+            "Caps",
+            "Roll-up",
+            "Matching",
+            "Leadership",
+            "Re-entry",
+            "Promotional rules"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Phase 4 — 1-Minute Trading"
+        },
+        {
+          "type": "paragraph",
+          "text": "Includes:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Instrument configuration",
+            "Price feed",
+            "Order engine",
+            "Entry timestamp",
+            "Expiry engine",
+            "Settlement",
+            "Payout calculation",
+            "Trading history",
+            "Risk controls",
+            "Audit trail"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Phase 5 — RWA"
+        },
+        {
+          "type": "paragraph",
+          "text": "Includes:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Asset registry",
+            "SPV records",
+            "Custodian records",
+            "NAV",
+            "Valuation",
+            "Instrument registry",
+            "Holder records",
+            "Redemption workflow"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Phase 6 — LPA-Custodian (族谱连)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Includes:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Beneficiary management",
+            "Inheritance policies",
+            "Allocation",
+            "Trigger workflow",
+            "Verification",
+            "Custodian approval",
+            "Settlement",
+            "Reconciliation"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Phase 7 — Admin / Compliance / QA"
+        },
+        {
+          "type": "paragraph",
+          "text": "Includes:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Admin dashboard",
+            "Compliance dashboard",
+            "Audit",
+            "Reporting",
+            "Monitoring",
+            "QA",
+            "DevOps",
+            "Security hardening"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "47",
+      "title": "47. Development Exclusions",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The 80,000 USDT is the software development budget."
+        },
+        {
+          "type": "paragraph",
+          "text": "It does not automatically include:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "MiCA licensing fees",
+            "Legal fees",
+            "RWA legal structuring",
+            "SPV establishment",
+            "Securities counsel",
+            "Derivatives/binary licensing",
+            "Custodian fees",
+            "Banking fees",
+            "KYC provider fees",
+            "AML provider fees",
+            "Blockchain gas",
+            "Market-data fees",
+            "Liquidity",
+            "Market making",
+            "Exchange listing",
+            "Smart-contract audit",
+            "Penetration testing by an external auditor",
+            "Ongoing hosting",
+            "Ongoing maintenance"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "These should be separately contracted."
+        }
+      ]
+    },
+    {
+      "number": "48",
+      "title": "48. Development Roadmap",
+      "blocks": [
+        {
+          "type": "subheading",
+          "text": "Phase 1 — Foundation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Architecture + database + authentication + ledger."
+        },
+        {
+          "type": "subheading",
+          "text": "Phase 2 — Telegram CRM"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mini App + user management + referral system."
+        },
+        {
+          "type": "subheading",
+          "text": "Phase 3 — Distribution Engine"
+        },
+        {
+          "type": "paragraph",
+          "text": "Binary + commissions + rank + volume."
+        },
+        {
+          "type": "subheading",
+          "text": "Phase 4 — Trading"
+        },
+        {
+          "type": "paragraph",
+          "text": "1-minute product framework + settlement."
+        },
+        {
+          "type": "subheading",
+          "text": "Phase 5 — RWA"
+        },
+        {
+          "type": "paragraph",
+          "text": "Asset registry + valuation + holdings."
+        },
+        {
+          "type": "subheading",
+          "text": "Phase 6 — LPA-Custodian (族谱连)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Inheritance + beneficiaries + custodian workflow."
+        },
+        {
+          "type": "subheading",
+          "text": "Phase 7 — Compliance / QA / Launch"
+        },
+        {
+          "type": "paragraph",
+          "text": "Testing + security + production deployment."
+        }
+      ]
+    },
+    {
+      "number": "49",
+      "title": "49. Production Acceptance Criteria",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The system should not be considered production-ready until:"
+        },
+        {
+          "type": "subheading",
+          "text": "CRM"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Sponsor relationships work correctly.",
+            "Binary placement works correctly.",
+            "Rank calculations are reproducible.",
+            "Commission calculations are auditable."
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Financial"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ledger balances.",
+            "Every transaction has a unique ID.",
+            "Deposits and withdrawals reconcile."
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Trading"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Every trade has immutable timestamps.",
+            "Every trade has an authoritative price source.",
+            "Settlement cannot be duplicated.",
+            "Expired trades cannot be modified."
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "RWA"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Every asset has ownership information.",
+            "Custodian is identified.",
+            "Valuation is recorded.",
+            "Instrument rights are documented."
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "LPA-Custodian (族谱连)"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Beneficiaries are verified.",
+            "Policies are versioned.",
+            "Trigger events are recorded.",
+            "Custodian approval is required.",
+            "Distribution is auditable."
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Compliance"
+        },
+        {
+          "type": "list",
+          "items": [
+            "KYC status is enforced.",
+            "Restricted jurisdictions are blocked.",
+            "Product eligibility is checked.",
+            "AML alerts can freeze relevant activity."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "50",
+      "title": "50. Important Commercial & Regulatory Design Principle",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The platform should not market all of these components as one generic investment programme."
+        },
+        {
+          "type": "paragraph",
+          "text": "Instead, the customer journey should make clear which service the user is accessing. For example:"
+        },
+        {
+          "type": "diagram",
+          "text": "CRYPTO           -> Crypto asset services       -> MiCA / CASP perimeter\nRWA              -> Real-world asset            -> Issuer / SPV / Securities analysis\nTRADING          -> Binary / derivative-style   -> Separate regulatory analysis\nINHERITANCE      -> LPA-Custodian                -> Custody + succession workflow\nDISTRIBUTION     -> Referral / compensation     -> Separate commercial/consumer/jurisdiction review"
+        },
+        {
+          "type": "paragraph",
+          "text": "This is especially important because MiCA authorisation does not automatically authorise every financial product that can be delivered through a crypto interface."
+        }
+      ]
+    },
+    {
+      "number": "51",
+      "title": "51. Key Compliance Architecture",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The platform should therefore have a central Product Regulatory Matrix:"
+        },
+        {
+          "type": "table",
+          "header": [
+            "Product",
+            "Legal Entity",
+            "Client Type",
+            "Jurisdiction",
+            "Permission",
+            "Status"
+          ],
+          "rows": [
+            [
+              "Crypto custody",
+              "CASP",
+              "Eligible clients",
+              "EU",
+              "MiCA scope",
+              "Active"
+            ],
+            [
+              "Crypto exchange",
+              "CASP",
+              "Eligible clients",
+              "EU",
+              "MiCA scope",
+              "Active"
+            ],
+            [
+              "RWA",
+              "SPV/Issuer",
+              "Eligible investors",
+              "Country-specific",
+              "Legal review",
+              "Controlled"
+            ],
+            [
+              "Tokenised security",
+              "Issuer",
+              "Eligible investors",
+              "Country-specific",
+              "Securities law",
+              "Controlled"
+            ],
+            [
+              "1-min binary",
+              "Trading entity",
+              "Eligible clients",
+              "Country-specific",
+              "Separate analysis",
+              "Restricted until approved"
+            ],
+            [
+              "LPA-Custodian",
+              "Platform/Custodian",
+              "Existing clients",
+              "Country-specific",
+              "Custody/succession",
+              "Controlled"
+            ],
+            [
+              "MLM compensation",
+              "Platform",
+              "Members",
+              "Country-specific",
+              "Local review",
+              "Controlled"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "number": "52",
+      "title": "52. Why the Architecture Uses Separate Engines",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A major design objective is not to hard-code today's business rules into the application. Instead:"
+        },
+        {
+          "type": "diagram",
+          "text": "Product\n   |\n   v\nRules Engine\n   |\n   v\nEligibility\n   |\n   v\nCalculation\n   |\n   v\nLedger\n\nExample jurisdiction gating:\n  Singapore  -> Binary = BLOCK\n  Lithuania  -> Binary = LEGAL REVIEW\n  Country X  -> Binary = ALLOWED"
+        },
+        {
+          "type": "paragraph",
+          "text": "The same platform can remain operational without rewriting the entire system."
+        }
+      ]
+    },
+    {
+      "number": "53",
+      "title": "53. Audit Architecture",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Every important event should produce:"
+        },
+        {
+          "type": "diagram",
+          "text": "Event ID          Old Value             Ruleset Version\nUser ID           New Value             Approval Reference\nActor             Timestamp\nAction            IP / Session Reference\nObject"
+        },
+        {
+          "type": "paragraph",
+          "text": "Examples:"
+        },
+        {
+          "type": "diagram",
+          "text": "COMMISSION_CREATED\nTRADE_ACCEPTED\nTRADE_SETTLED\nRWA_VALUATION_UPDATED\nBENEFICIARY_ADDED\nINHERITANCE_APPROVED\nCUSTODY_RELEASED"
+        }
+      ]
+    },
+    {
+      "number": "54",
+      "title": "54. Reconciliation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Daily reconciliation should compare: Internal Ledger against Custodian against Blockchain against Bank / Payment Provider. Example:"
+        },
+        {
+          "type": "diagram",
+          "text": "Internal USDT:   10,000,000\nCustodian:       10,000,000\nBlockchain:      10,000,000\nDifference:               0"
+        },
+        {
+          "type": "paragraph",
+          "text": "Any difference creates an exception."
+        }
+      ]
+    },
+    {
+      "number": "55",
+      "title": "55. Operational Risk Controls",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The platform should support:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Daily limits",
+            "Per-user limits",
+            "Product limits",
+            "Jurisdiction restrictions",
+            "Manual review",
+            "Suspicious transaction alerts",
+            "Withdrawal delay",
+            "Custodian approval",
+            "Trading suspension",
+            "Emergency system freeze"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "56",
+      "title": "56. Emergency Controls",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Super-admin should be able to activate:"
+        },
+        {
+          "type": "subheading",
+          "text": "Trading Pause"
+        },
+        {
+          "type": "paragraph",
+          "text": "Stops new trading orders."
+        },
+        {
+          "type": "subheading",
+          "text": "Withdrawal Pause"
+        },
+        {
+          "type": "paragraph",
+          "text": "Stops withdrawals while preserving balances."
+        },
+        {
+          "type": "subheading",
+          "text": "Commission Pause"
+        },
+        {
+          "type": "paragraph",
+          "text": "Stops commission settlement."
+        },
+        {
+          "type": "subheading",
+          "text": "RWA Subscription Pause"
+        },
+        {
+          "type": "paragraph",
+          "text": "Stops new subscriptions."
+        },
+        {
+          "type": "subheading",
+          "text": "Full Emergency Mode"
+        },
+        {
+          "type": "paragraph",
+          "text": "Stops all new financial transactions while preserving historical data."
+        },
+        {
+          "type": "paragraph",
+          "text": "These controls should themselves be logged and permission-controlled."
+        }
+      ]
+    },
+    {
+      "number": "57",
+      "title": "57. Recommended User Journey",
+      "blocks": [
+        {
+          "type": "subheading",
+          "text": "Step 1"
+        },
+        {
+          "type": "paragraph",
+          "text": "User opens Telegram Mini App."
+        },
+        {
+          "type": "subheading",
+          "text": "Step 2"
+        },
+        {
+          "type": "paragraph",
+          "text": "Creates account."
+        },
+        {
+          "type": "subheading",
+          "text": "Step 3"
+        },
+        {
+          "type": "paragraph",
+          "text": "Completes KYC."
+        },
+        {
+          "type": "subheading",
+          "text": "Step 4"
+        },
+        {
+          "type": "paragraph",
+          "text": "Receives eligibility classification."
+        },
+        {
+          "type": "subheading",
+          "text": "Step 5"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sees available products."
+        },
+        {
+          "type": "subheading",
+          "text": "Step 6"
+        },
+        {
+          "type": "paragraph",
+          "text": "Selects:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Crypto",
+            "RWA",
+            "Trading",
+            "Distribution",
+            "LPA-Custodian (族谱连)"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Step 7"
+        },
+        {
+          "type": "paragraph",
+          "text": "Each product uses its own compliance rules."
+        },
+        {
+          "type": "subheading",
+          "text": "Step 8"
+        },
+        {
+          "type": "paragraph",
+          "text": "Financial activity is recorded in the central ledger."
+        },
+        {
+          "type": "subheading",
+          "text": "Step 9"
+        },
+        {
+          "type": "paragraph",
+          "text": "Custody is handled through the approved custodian."
+        },
+        {
+          "type": "subheading",
+          "text": "Step 10"
+        },
+        {
+          "type": "paragraph",
+          "text": "User sees all activity through one Telegram interface."
+        }
+      ]
+    },
+    {
+      "number": "58",
+      "title": "58. Final Product Positioning",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The system can ultimately be positioned as: A Telegram-Native Digital Asset & RWA Financial Ecosystem, with four major pillars:"
+        },
+        {
+          "type": "subheading",
+          "text": "1. Earn"
+        },
+        {
+          "type": "paragraph",
+          "text": "Distribution and commission ecosystem."
+        },
+        {
+          "type": "subheading",
+          "text": "2. Trade"
+        },
+        {
+          "type": "paragraph",
+          "text": "Short-duration trading and digital-asset products."
+        },
+        {
+          "type": "subheading",
+          "text": "3. Own"
+        },
+        {
+          "type": "paragraph",
+          "text": "RWA and digital-asset ownership infrastructure."
+        },
+        {
+          "type": "subheading",
+          "text": "4. Protect"
+        },
+        {
+          "type": "paragraph",
+          "text": "Custody, inheritance and LPA-Custodian (族谱连) succession."
+        }
+      ]
+    },
+    {
+      "number": "59",
+      "title": "59. Final Architecture",
+      "blocks": [
+        {
+          "type": "diagram",
+          "text": "                    DIGITAL ASSET ECOSYSTEM\n                              |\n          +-------------------+-------------------+\n          |                   |                   |\n      CORPORATE              RWA              CRYPTO\n      US LISTED            ASSETS              CASP\n          |                   |                   |\n          +-------------------+-------------------+\n                              |\n                       CORE PLATFORM\n                              |\n       +----------------------+----------------------+\n       |                      |                      |\n     CRM                  TRADING              LPA-CUSTODIAN\n       |                      |                      |\n Sponsor Tree            1-Minute               Beneficiaries\n Binary Tree             Contracts              Policies\n Rank                    Price Feed             Triggers\n Commission              Settlement             Approval\n       |                      |                      |\n       +----------------------+----------------------+\n                              |\n                       DOUBLE-ENTRY LEDGER\n                              |\n                         COMPLIANCE\n                              |\n                    KYC / AML / SANCTIONS\n                              |\n                           CUSTODY\n                              |\n                  BLOCKCHAIN / BANK / RWA"
+        }
+      ]
+    },
+    {
+      "number": "60",
+      "title": "60. Ecosystem Value Summary",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Every component of Dynastree (万承) is designed to be a demand driver for the underlying ecosystem, not an isolated feature. Each module gives members a recurring reason to hold, deposit, and transact within the platform, which increases the usage and circulation of the underlying crypto asset over time."
+        },
+        {
+          "type": "subheading",
+          "text": "MLM / Distribution CRM"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sponsor and binary genealogy growth continuously onboards new members and packages, expanding the active wallet base transacting in the underlying token."
+        },
+        {
+          "type": "subheading",
+          "text": "1-Minute Binary Trading"
+        },
+        {
+          "type": "paragraph",
+          "text": "High-frequency trading activity creates constant buy/sell pressure and settlement flow, driving daily transaction volume through the ecosystem."
+        },
+        {
+          "type": "subheading",
+          "text": "RWA Registry & Tokenised Assets"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tokenised real-world assets give holders a reason to keep value on-platform rather than exit to fiat, deepening on-chain liquidity."
+        },
+        {
+          "type": "subheading",
+          "text": "LPA-Custodian (族谱连)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Inheritance and succession policies encourage long-term custody of assets within the platform across generations, reducing sell pressure and extending holding periods."
+        },
+        {
+          "type": "subheading",
+          "text": "Packages & Trading Points"
+        },
+        {
+          "type": "paragraph",
+          "text": "Package tiers, re-entry rules, and monthly trading points reward continued participation, reinforcing repeat usage and token velocity within the ecosystem."
+        },
+        {
+          "type": "subheading",
+          "text": "Custody & Compliance Infrastructure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Institutional-grade custody, KYC/AML, and audit controls build the trust required for larger holders and RWA issuers to commit capital to the ecosystem."
+        },
+        {
+          "type": "paragraph",
+          "text": "Taken together, distribution, trading, real-world assets, and inheritance custody form a reinforcing cycle: more members and products increase transaction volume and custody depth, which increases demand for and utility of the underlying crypto asset, which in turn strengthens the value proposition for new members and asset issuers joining the ecosystem."
+        }
+      ]
+    },
+    {
+      "number": "61",
+      "title": "61. Final Development Proposal",
+      "blocks": [
+        {
+          "type": "callout_hero",
+          "project_label": "PROJECT",
+          "project_text": "MLM-CRM + RWA + Telegram Mini App + 1-Minute Trading + LPA-Custodian (族谱连)",
+          "invest_label": "DEVELOPMENT INVESTMENT",
+          "invest_text": "80,000 USDT"
+        },
+        {
+          "type": "callout_payment",
+          "heading": "PAYMENT TERMS",
+          "stages": [
+            {
+              "pct": "50%",
+              "name": "Upfront"
+            },
+            {
+              "pct": "25%",
+              "name": "At 2 Months"
+            },
+            {
+              "pct": "25%",
+              "name": "On Completion"
+            }
+          ],
+          "wallet_label": "SETTLEMENT WALLET (USDT · BEP20)",
+          "wallet_address": "0x2182490f614dc365a15454734b53193abb4ec45d"
+        },
+        {
+          "type": "subheading",
+          "text": "Core Deliverables"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Telegram Mini App",
+            "Telegram Bot",
+            "Web Admin",
+            "MLM/Distribution CRM",
+            "Sponsor genealogy",
+            "Binary genealogy",
+            "Rank system",
+            "Commission engine",
+            "Earning caps",
+            "Trading engine",
+            "1-minute fixed-expiry product framework",
+            "Price feed architecture",
+            "Settlement engine",
+            "RWA registry",
+            "RWA valuation",
+            "Custodian integration framework",
+            "LPA-Custodian (族谱连) inheritance engine",
+            "Beneficiary management",
+            "Compliance engine",
+            "KYC/AML integration framework",
+            "Double-entry ledger",
+            "Audit trail",
+            "Reporting",
+            "Security controls",
+            "DevOps",
+            "Production deployment"
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Important Regulatory Qualification"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Lithuanian MiCA/CASP structure is a foundation for applicable crypto-asset services, not a blanket licence for every component described above. The Bank of Lithuania's current MiCA materials describe CASP authorisation and the relevant crypto-asset service framework."
+        },
+        {
+          "type": "paragraph",
+          "text": "The 1-minute binary product is particularly important to isolate. ESMA's historical EU intervention prohibited marketing, distribution or sale of binary options to retail clients, and national measures remained relevant after the temporary ESMA measure expired. Consequently, the proposed software should implement jurisdiction/product gating from day one rather than assuming that a Lithuanian CASP licence permits the binary product."
+        },
+        {
+          "type": "paragraph",
+          "text": "Likewise, if an RWA represents a financial instrument, the product needs to follow the relevant securities framework rather than being automatically treated as a MiCA crypto-asset."
+        },
+        {
+          "type": "paragraph",
+          "text": "In other words: the 80,000 USDT budget builds the technology platform; the final legal entities, licences, product classifications, custody arrangements and jurisdictions determine which modules can actually be activated for customers."
+        }
+      ]
+    }
+  ]
+}
