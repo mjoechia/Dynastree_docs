@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "title": "Dynastree (万承) — DYN & DYNUSD Token Ecosystem Strategy",
+    "subtitle": "Strategic Whitepaper · Draft for Review",
+    "vision": "Build a community-first Web3 ecosystem that evolves into Dynastree Chain (万承链), with DYN becoming the native gas and governance token, and DYNUSD remaining the ecosystem's stable settlement asset."
+  },
+  "sections": [
+    {
+      "number": "1",
+      "title": "1. Token Roles & Full Ecosystem Architecture",
+      "blocks": [
+        { "type": "paragraph", "text": "Dynastree (万承) is designed around two complementary tokens rather than one all-purpose coin. DYN is the ecosystem's native value and governance asset; DYNUSD is its stable transaction currency. The important distinction is that DYNUSD should never compete with DYN — one is designed for spending, the other for ecosystem participation." },
+        { "type": "token_compare" },
+        { "type": "caption", "text": "Figure 1.1 — DYN and DYNUSD occupy distinct, non-competing economic roles." },
+        { "type": "subheading", "text": "Token Roles" },
+        { "type": "table", "header": ["Token", "Purpose", "Long-term Role"], "rows": [
+          ["DYN", "Utility, governance, staking", "Native blockchain coin"],
+          ["DYNUSD", "Payments and settlements", "Cross-chain stablecoin"]
+        ]},
+        { "type": "subheading", "text": "Three-Layer Ecosystem" },
+        { "type": "paragraph", "text": "The ecosystem can be understood as three layers stacked on top of one another: a **Community layer** (members, ambassadors, referrals, reputation), an **Economy layer** (DYN rewards and governance, DYNUSD payments, merchant commerce, treasury circulation), and an **Infrastructure layer** (wallet, identity, smart contracts, and — eventually — Dynastree Chain itself). Each layer depends on the one below it: the community generates the activity that the economy layer monetizes and circulates, and the infrastructure layer is what makes that activity possible and, over time, sovereign." },
+        { "type": "layer_stack", "layers": [
+          { "name": "Community", "items": "Members · Ambassadors · Referrals · Reputation" },
+          { "name": "Economy", "items": "DYN rewards & governance · DYNUSD payments · Merchant commerce · Treasury circulation" },
+          { "name": "Infrastructure", "items": "Wallet · Identity · Smart contracts · Dynastree Chain (万承链)" }
+        ]},
+        { "type": "caption", "text": "Figure 1.2 — Three-layer ecosystem: Community → Economy → Infrastructure." }
+      ]
+    },
+    {
+      "number": "2",
+      "title": "2. DYN — The Ecosystem Token",
+      "blocks": [
+        { "type": "subheading", "text": "Core Utilities" },
+        { "type": "paragraph", "text": "DYN utility is introduced in two stages, so that early incentives do not have to bear the full weight of a mature governance and validator system before either exists." },
+        { "type": "utility_matrix",
+          "initial": ["Community rewards", "Staking", "Referral incentives", "Premium membership", "Fee discounts"],
+          "later": ["Governance voting", "Validator staking", "Gas fees", "RWA participation", "Launchpad access"] },
+        { "type": "caption", "text": "Figure 2.1 — Utility matrix: initial utilities available at launch vs. later utilities that activate as governance and Dynastree Chain mature." },
+        { "type": "subheading", "text": "Supply Model & Allocation" },
+        { "type": "paragraph", "text": "Suggested total supply: **10 billion DYN**. A large supply is a deliberate choice: small unit prices feel more intuitive to a mass-market, Telegram-first user base; it leaves plenty of room for community incentives; and it makes future validator staking practical at scale." },
+        { "type": "pie_chart", "center_label": "10B DYN", "center_sub": "Total Supply", "data": [
+          { "label": "Community Rewards", "pct": 35 },
+          { "label": "Ecosystem Treasury", "pct": 25 },
+          { "label": "Development Fund", "pct": 15 },
+          { "label": "Foundation", "pct": 10 },
+          { "label": "Team", "pct": 10 },
+          { "label": "Liquidity", "pct": 5 }
+        ]},
+        { "type": "caption", "text": "Figure 2.2 — DYN supply allocation across six pools." },
+        { "type": "table", "header": ["Allocation", "Percentage"], "rows": [
+          ["Community Rewards", "35%"], ["Ecosystem Treasury", "25%"], ["Development Fund", "15%"],
+          ["Foundation", "10%"], ["Team", "10%"], ["Liquidity", "5%"]
+        ]},
+        { "type": "subheading", "text": "Emission Strategy / Vesting Timeline" },
+        { "type": "paragraph", "text": "Rather than releasing the full supply at once, DYN unlocks follow a phased schedule weighted toward Years 2–3, avoiding an early inflation shock while the ecosystem is still establishing organic demand." },
+        { "type": "emission_timeline", "phases": [
+          { "label": "Year 1", "pct": "12%" }, { "label": "Year 2", "pct": "18%" }, { "label": "Year 3", "pct": "25%" },
+          { "label": "Year 4", "pct": "20%" }, { "label": "Remaining", "pct": "Performance-based" }
+        ]},
+        { "type": "caption", "text": "Figure 2.3 — Emission / vesting timeline by year." },
+        { "type": "table", "header": ["Phase", "Unlock"], "rows": [
+          ["Year 1", "12%"], ["Year 2", "18%"], ["Year 3", "25%"], ["Year 4", "20%"], ["Remaining", "Performance-based"]
+        ]}
+      ]
+    },
+    {
+      "number": "3",
+      "title": "3. DYNUSD — The Payment Token",
+      "blocks": [
+        { "type": "paragraph", "text": "DYNUSD should prioritize trust over innovation. Its design goal is to be the boring, reliable half of the ecosystem: a 1:1 dollar-pegged instrument that people can hold and spend without thinking about it." },
+        { "type": "subheading", "text": "Design Principles" },
+        { "type": "list", "items": ["Peg: 1 DYNUSD = 1 USD", "Fully collateralized", "Mint only against reserves", "Burn upon redemption", "Transparent reserve reporting"] },
+        { "type": "subheading", "text": "Initial Backing Strategy" },
+        { "type": "paragraph", "text": "Rather than becoming a licensed issuer immediately, the initial model minimizes technical and operational complexity: a user deposits USDC, the treasury locks it as reserve collateral, and DYNUSD is minted 1:1 against that locked reserve. Redemption reverses the flow — DYNUSD is burned, the corresponding USDC is unlocked, and it is returned to the user." },
+        { "type": "flow_chain", "steps": ["User Deposits USDC", "Treasury Locks Reserve", "DYNUSD Minted", "User Spends / Holds DYNUSD"],
+          "reverse_label": "Redemption: burn DYNUSD → unlock USDC → return to user" },
+        { "type": "caption", "text": "Figure 3.1 — USDC → Treasury Lock → Mint DYNUSD, with redemption reversing the flow." },
+        { "type": "subheading", "text": "Reserve Management" },
+        { "type": "paragraph", "text": "In this initial model, reserves are held and managed internally by the treasury, with DYNUSD minted strictly 1:1 against locked USDC — no fractional issuance, no leverage against the reserve pool. Transparent reserve reporting is a stated design principle from day one, even before any external audit arrangement is in place." },
+        { "type": "subheading", "text": "Future Regulated Reserve Evolution" },
+        { "type": "paragraph", "text": "Today's internally-managed, USDC-backed peg is intended as a pragmatic bootstrap, not a permanent end state. The stated direction is to evolve toward independently audited reserve custody, and — as transaction volume and jurisdictional clarity justify it — toward a more formally licensed stablecoin issuance structure. No specific regulator, license type, or timeline is committed to at this stage; this is a directional intent, not a regulatory claim." },
+        { "type": "subheading", "text": "Cross-Chain Settlement" },
+        { "type": "paragraph", "text": "DYNUSD is intended to eventually settle across multiple chains via bridging, beginning from its initial issuance chain. The specific bridge architecture is not yet finalized; this is stated here as a forward-looking design direction rather than a committed technical specification." },
+        { "type": "subheading", "text": "Transparency Dashboard — Concept Mock-Up" },
+        { "type": "dashboard_mock", "tiles": [
+          { "label": "Total DYNUSD Supply", "value": "12,500,000 (illustrative)" },
+          { "label": "USDC Reserves", "value": "12,500,000 (illustrative)" },
+          { "label": "Collateralization Ratio", "value": "100%+" }
+        ]},
+        { "type": "caption", "text": "Figure 3.2 — Illustrative mock-up only. Figures shown are placeholders, not live data." }
+      ]
+    },
+    {
+      "number": "4",
+      "title": "4. Ecosystem Flow",
+      "blocks": [
+        { "type": "paragraph", "text": "Users earn DYN through participation. Users spend DYNUSD with merchants. Merchant fees flow into the treasury. The treasury supports ecosystem growth. Once the blockchain launches, validators stake DYN. This structure creates two distinct economic loops — participation and commerce — rather than one undifferentiated speculative loop." },
+        { "type": "ecosystem_flow" },
+        { "type": "caption", "text": "Figure 4.1 — Users → Merchants → Treasury → Validators ecosystem flow." }
+      ]
+    },
+    {
+      "number": "5",
+      "title": "5. Merchant Adoption Strategy",
+      "blocks": [
+        { "type": "subheading", "text": "QR Payment Flow" },
+        { "type": "flow_chain", "steps": ["User Scans Merchant QR", "DYNUSD Debited from Wallet", "Merchant Credited", "Fee Routed to Treasury"] },
+        { "type": "caption", "text": "Figure 5.1 — A single QR-code tap settles a DYNUSD payment and routes the merchant fee to the treasury." },
+        { "type": "subheading", "text": "Cross-Border Payment Examples" },
+        { "type": "paragraph", "text": "Merchant adoption is focused on industries already aligned with the network, prioritizing regions where cross-border friction is highest:" },
+        { "type": "list", "items": [
+          "Beauty & Wellness — salons, spas, Pilates studios",
+          "Events — tickets and community gatherings",
+          "Pop-up Retail — lifestyle brands and activations",
+          "Cross-border Payments — Singapore, Indonesia, Malaysia"
+        ]},
+        { "type": "paragraph", "text": "Merchants accepting DYNUSD can receive incentives funded from ecosystem growth budgets, rather than relying solely on transaction fees for adoption." },
+        { "type": "subheading", "text": "Revenue Cycle" },
+        { "type": "loop_cycle", "steps": ["Merchant Fee", "Treasury", "Ecosystem Growth Budget", "Merchant Incentives"] },
+        { "type": "caption", "text": "Figure 5.2 — Merchant fees recycle into the treasury's ecosystem growth budget, which in turn funds merchant incentives." }
+      ]
+    },
+    {
+      "number": "6",
+      "title": "6. Treasury Model",
+      "blocks": [
+        { "type": "subheading", "text": "Asset Composition" },
+        { "type": "asset_strip", "items": ["USDC Reserves", "DYN Reserve", "Liquidity Pool Positions", "RWA Income", "Transaction Fees"] },
+        { "type": "caption", "text": "Figure 6.1 — Potential treasury-held asset classes (illustrative, not weighted to scale)." },
+        { "type": "subheading", "text": "Revenue Streams" },
+        { "type": "list", "items": ["Swap fees", "Merchant services", "Premium subscriptions", "Launchpad fees", "Validator commissions"] },
+        { "type": "paragraph", "text": "Together, these create recurring cash flow for the treasury that is independent of DYN's token price movements." },
+        { "type": "subheading", "text": "Buyback & Ecosystem Funding Logic" },
+        { "type": "paragraph", "text": "The treasury may use a portion of recurring revenue for DYN buyback/burn or ecosystem grants, at governance's discretion. No fixed percentage or automatic trigger is committed to at this stage — this is a stated intent for how treasury revenue can be deployed, not a fixed policy." }
+      ]
+    },
+    {
+      "number": "7",
+      "title": "7. Four-Phase Roadmap",
+      "blocks": [
+        { "type": "roadmap_timeline", "phases": [
+          { "phase": "Phase 1", "duration": "0–6 Months", "title": "Community", "items": ["Telegram Mini App", "Wallet + Referral", "50,000 wallets / 20,000 active users"] },
+          { "phase": "Phase 2", "duration": "6–12 Months", "title": "Token Launch", "items": ["DYN launch", "Staking + rewards", "Governance beta"] },
+          { "phase": "Phase 3", "duration": "12–24 Months", "title": "Payment Economy", "items": ["DYNUSD launch", "Merchant QR payments", "Cross-border transfers"] },
+          { "phase": "Phase 4", "duration": "24+ Months", "title": "Dynastree Chain", "items": ["Native blockchain", "DYN = gas token", "Validators + bridges"] }
+        ]},
+        { "type": "caption", "text": "Figure 7.1 — Four-phase roadmap: Community → Token Launch → Payment Economy → Dynastree Chain." },
+        { "type": "subheading", "text": "Phase 1 — Community (0–6 Months)" },
+        { "type": "paragraph", "text": "Objective: build users before token speculation." },
+        { "type": "list", "items": ["Telegram Mini App", "Wallet", "Referral system", "Reputation score", "Off-chain points"] },
+        { "type": "paragraph", "text": "**Target: 50,000 wallets, 20,000 active users.** This is the only concrete numeric target specified at this stage." },
+        { "type": "subheading", "text": "Phase 2 — Token Launch (6–12 Months)" },
+        { "type": "paragraph", "text": "Launch DYN first." },
+        { "type": "list", "items": ["Staking", "Community rewards", "Governance beta", "Liquidity pools"] },
+        { "type": "paragraph", "text": "Centralized exchange listings are deliberately delayed in favor of organic liquidity." },
+        { "type": "subheading", "text": "Phase 3 — Payment Economy (12–24 Months)" },
+        { "type": "paragraph", "text": "Launch DYNUSD." },
+        { "type": "list", "items": ["Merchant QR payments", "Cross-border transfers", "MLM commission payouts", "Event tickets", "Marketplace purchases"] },
+        { "type": "paragraph", "text": "The stablecoin is intended to become the ecosystem's everyday currency." },
+        { "type": "subheading", "text": "Phase 4 — Dynastree Chain (24+ Months)" },
+        { "type": "paragraph", "text": "Once the ecosystem has sufficient activity: a native blockchain, DYN as the gas token, validators, cross-chain bridges, and an RWA settlement layer. No token migration should be required, since DYN is designed as the future native asset from day one." },
+        { "type": "subheading", "text": "Wallet Growth & Validator Expansion" },
+        { "type": "paragraph", "text": "Phase 1 specifies the ecosystem's only concrete adoption target: 50,000 wallets and 20,000 active users. Later-phase growth is described qualitatively rather than with invented figures — scaling beyond Phase 1's wallet base as payment and validator utility go live. Validator expansion follows Phase 4: validators stake DYN once the blockchain launches, with the specific validator count to be defined closer to launch rather than fixed today." },
+        { "type": "subheading", "text": "TVL Targets" },
+        { "type": "note_panel", "text": "TVL targets are intentionally **not yet defined**. They will be established once DYNUSD payment volume and treasury reserve data are available to ground a realistic target, rather than being projected ahead of that data." }
+      ]
+    },
+    {
+      "number": "8",
+      "title": "8. Community Growth Strategy",
+      "blocks": [
+        { "type": "subheading", "text": "Ambassador System" },
+        { "type": "ladder", "levels": [
+          { "name": "Explorer", "requirement": "Join ecosystem" },
+          { "name": "Builder", "requirement": "Invite 10" },
+          { "name": "Guardian", "requirement": "100 verified" },
+          { "name": "Pioneer", "requirement": "Merchant onboard" },
+          { "name": "Legend", "requirement": "Validator candidate" }
+        ]},
+        { "type": "caption", "text": "Figure 8.1 — Five-level ambassador ladder, from Explorer to Legend." },
+        { "type": "table", "header": ["Level", "Requirement"], "rows": [
+          ["Explorer", "Join ecosystem"], ["Builder", "Invite 10"], ["Guardian", "100 verified"],
+          ["Pioneer", "Merchant onboard"], ["Legend", "Validator candidate"]
+        ]},
+        { "type": "paragraph", "text": "Rewards should prioritize long-term participation rather than short-term recruitment." },
+        { "type": "subheading", "text": "Merchant Adoption" },
+        { "type": "paragraph", "text": "Focus on industries already aligned with the network: Beauty & Wellness, Events, Pop-up Retail, and Cross-border Payments across Singapore, Indonesia, and Malaysia — see Section 5 for detail." }
+      ]
+    },
+    {
+      "number": "9",
+      "title": "9. Technical Architecture",
+      "blocks": [
+        { "type": "table", "header": ["Layer", "Technology"], "rows": [
+          ["Wallet", "Telegram Mini App"], ["Identity", "DID + Reputation"],
+          ["Smart Contracts", "Move (Aptos) initially"], ["Stablecoin", "Wrapped USDC model"],
+          ["Governance", "On-chain voting"], ["Treasury", "Multi-signature custody"],
+          ["Analytics", "On-chain dashboard"]
+        ]},
+        { "type": "paragraph", "text": "Aptos remains a strong launch platform because of its low transaction costs and Move's asset safety, while still allowing future migration into Dynastree Chain." }
+      ]
+    },
+    {
+      "number": "10",
+      "title": "10. The \"Apple Strategy\" for Web3",
+      "blocks": [
+        { "type": "paragraph", "text": "Rather than marketing DYN as another cryptocurrency, Dynastree is positioned as a financial operating system — one where users experience useful services before they even think about tokens." },
+        { "type": "user_sees", "pairs": [
+          ["Digital Identity", "Wallet"], ["Rewards", "DYN"], ["Payments", "DYNUSD"],
+          ["Marketplace", "Smart Contracts"], ["Family Assets", "LPA-Custodian"],
+          ["RWA Investments", "Tokenized Assets"], ["Fast Transactions", "Dynastree Chain"]
+        ]},
+        { "type": "caption", "text": "Figure 10.1 — Consumer-first experience: what the user sees vs. what powers it underneath." },
+        { "type": "subheading", "text": "Hidden Blockchain Infrastructure" },
+        { "type": "paragraph", "text": "The strongest long-term positioning is that people join Dynastree because it solves real-world problems — payments, digital inheritance, community rewards, and asset ownership — not because they are buying a token. When the blockchain eventually launches, it becomes the invisible infrastructure powering an economy that already exists, rather than the product itself." }
+      ]
+    }
+  ]
+}
